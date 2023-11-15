@@ -1,2 +1,6 @@
-# Algorithms_Project_2
- Algorithms Project  that consists of code and data
+## Dependencies <a name="dependencies"></a>
+
+Before running the script, ensure you have requirements.txt installed:
+```bash
+pip install -r requirements.txt
+```
