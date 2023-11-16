@@ -10,7 +10,7 @@
 - Each flight between two airports could be an edge. We should probably use directed edges from source airport to destination airport.
 
 **Weights**:
-- Passenger load (whenever we figure out how to calculate that).
+- Capacity (whenever we figure out how to calculate that).
 
 ### Algorithm Suggestions
 
