@@ -64,6 +64,9 @@ merged_data = merged_data.merge(
 merged_data.rename(columns={'Plane': 'plane model'}, inplace=True)
 merged_data.drop('IATA', axis=1, inplace=True)  # removing the extra 'IATA' column.
 
+# Drop NaN values if 'equipment' was not mapped to a specific plane model.
+merged_data = merged_data.dropna(subset=['plane model'])
+
 # Consider a source city, say New York, and a target city, say San Francisco.
 print(merged_data[(merged_data["source city"] == "New York") &
                   (merged_data["destination city"] == "San Francisco")].to_string())
