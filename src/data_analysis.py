@@ -84,3 +84,10 @@ print(ny_sf_direct_flights.to_string())
 
 # print(ny_sf_indirect_flights.shape)  # (3117, 26)
 # print(ny_sf_direct_flights.shape)  # (8, 13)
+
+ny_models = ny_sf_indirect_flights['plane model ny'].unique()
+sf_models = ny_sf_indirect_flights['plane model sf'].unique()
+ny_sf_models = ny_sf_direct_flights['plane model'].unique()
+
+models_set = set(list(ny_models) + list(sf_models) + list(ny_sf_models))
+sorted_models = sorted(models_set)
