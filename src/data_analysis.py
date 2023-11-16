@@ -84,14 +84,3 @@ print(ny_sf_direct_flights.to_string())
 
 # print(ny_sf_indirect_flights.shape)  # (3117, 26)
 # print(ny_sf_direct_flights.shape)  # (8, 13)
-
-"""
-Graph ideas:
-Nodes: each airport could be a node in the graph. We can represent the airport by it's unique identifier (like the IATA code).
-Edges: each flight between two airports could be an edge. We should probably use directed edges from source airport to destination airport.
-Weights: passenger load (whenever we figure out how to calculate that).
-
-Algorithm ideas:
-We could implement DFS or BFS algorithms, however, it sounded like he wants us to use one of the Network Connectivity Algorithms.
-We can explore some options or see what he will cover in class first.
-"""
