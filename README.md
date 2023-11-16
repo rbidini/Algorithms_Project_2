@@ -6,7 +6,7 @@
 - Each airport could be a node in the graph.
 - We can represent the airport by its unique identifier (like the IATA code).
 
-**Edges**:
+**Edges**: 
 - Each flight between two airports could be an edge. We should probably use directed edges from source airport to destination airport.
 
 **Weights**:
