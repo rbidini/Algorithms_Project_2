@@ -91,3 +91,4 @@ ny_sf_models = ny_sf_direct_flights['plane model'].unique()
 
 models_set = set(list(ny_models) + list(sf_models) + list(ny_sf_models))
 sorted_models = sorted(models_set)
+print(sorted_models)
