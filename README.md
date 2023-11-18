@@ -28,7 +28,7 @@ Using the following website: https://www.seatguru.com/airlines/Delta_Airlines/De
 - **Airbus A319**: 132 seats
 - **Airbus A320**: 158 seats
 - **Airbus A321**: 192 seats
-- **Airbus A321neo**: 196 seats (not in seatguru, need to find different source)
+- **Airbus A321neo**: 196 seats
 - **Airbus A330-200**: 234 seats
 - **Airbus A330-300**: 293 seats
 - **Airbus A330-900neo**: 281 seats
