@@ -18,45 +18,50 @@
 - It sounded like the professor wants us to use one of the Network Connectivity Algorithms for detailed analysis. We can explore some options or see what he will cover in class first.
 
 ### Plane Capacity Information
+#### Note this is the **max** number of seats for each aircraft, _not accounting for crew members_
+(If there are two or more variations for one aircraft {i.e. Airbus A320}, take the total number of seats for all of them, divide by
+the number of different layouts. If decimal is average, take the floor value)
 
-- **Airbus A220**: 105 seats
-- **Airbus A319**: 128 seats
-- **Airbus A320**: 150 seats
-- **Airbus A321**: 185 seats
-- **Airbus A321neo**: 196 seats
-- **Airbus A330-200**: 230 seats
-- **Airbus A330-300**: 290 seats
-- **Airbus A330-900neo**: 280 seats
-- **Airbus A350-900**: 300 seats
+Using the following website: https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_Airbus_A321.php
+
+- **Airbus A220**: 109 seats
+- **Airbus A319**: 132 seats
+- **Airbus A320**: 158 seats
+- **Airbus A321**: 192 seats
+- **Airbus A321neo**: 196 seats (not in seatguru, need to find different source)
+- **Airbus A330-200**: 234 seats
+- **Airbus A330-300**: 293 seats
+- **Airbus A330-900neo**: 281 seats
+- **Airbus A350-900**: 306 seats
 - **Boeing 717-200**: 110 seats
-- **Boeing 737-700**: 126 seats
-- **Boeing 737-800**: 165 seats
-- **Boeing 737-900**: 180 seats
+- **Boeing 737-700**: 124 seats
+- **Boeing 737-800**: 160 seats
+- **Boeing 737-900**: 175 seats
 - **Boeing 737-900ER**: 180 seats
-- **Boeing 737-Max 9**: 180 seats
-- **Boeing 757-200**: 180 seats
-- **Boeing 757-300**: 230 seats
-- **Boeing 767-300**: 200 seats
-- **Boeing 767-300ER**: 225 seats
-- **Boeing 767-400ER**: 240 seats
-- **Boeing 777-200**: 270 seats
-- **Boeing 777-200ER**: 270 seats
-- **Boeing 777-200LR**: 280 seats
-- **Boeing 777-300**: 300 seats
-- **Boeing 787-8**: 235 seats
-- **Boeing 787-9**: 280 seats
+- **Boeing 737-Max 9**: 179 seats
+- **Boeing 757-200**: 162 seats
+- **Boeing 757-300**: 232 seats
+- **Boeing 767-300**: 148 seats
+- **Boeing 767-300ER**: 198 seats
+- **Boeing 767-400ER**: 242 seats
+- **Boeing 777-200**: 308 seats
+- **Boeing 777-200ER**: 292 seats
+- **Boeing 777-200LR**: 292 seats
+- **Boeing 777-300**: 350 seats
+- **Boeing 787-8**: 231 seats
+- **Boeing 787-9**: 254 seats
 - **Embraer ERJ-170**: 72 seats
 - **Embraer ERJ-175**: 78 seats
 - **Embraer 175**: 76 seats
-- **Embraer 170**: 69 seats
+- **Embraer 170**: 70 seats
 - **Boeing (Douglas) MD-88**: 149 seats
 - **Bombardier CRJ-200**: 50 seats
 - **Boeing (Douglas) MD-90**: 158 seats
 - **Embraer ERJ-190**: 100 seats
-- **McDonnell Douglas MD - 88**: 150 seats
-- **McDonnell Douglas MD - 90-30**: 150 seats
-- **Bombardier CRJ-700**: 75 seats
-- **Bombardier CRJ-900**: 75 seats
+- **McDonnell Douglas MD - 88**: 149 seats
+- **McDonnell Douglas MD - 90-30**: 158 seats
+- **Bombardier CRJ-700**: 69 seats
+- **Bombardier CRJ-900**: 70 seats
 
 ## Dependencies
 
