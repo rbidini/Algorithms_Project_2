@@ -1,11 +1,10 @@
 import pandas as pd
 
-
 # reading the CSV files
 # some column names had empty spaces in the beginning of the name, "skipinitialspace=True" parameter removes empty spaces.
-routes_data = pd.read_csv('data/routes.csv', encoding='ISO-8859-1', skipinitialspace=True)
+# routes_data = pd.read_csv("C://Users/rayli/Desktop/Algorithms/Project2/Algorithms_Project_2/src/routes.csv", encoding='ISO-8859-1', skipinitialspace=True)
 
-airlines_data = pd.read_csv('data/airlines.csv', encoding='ISO-8859-1', skipinitialspace=True)
+airlines_data = pd.read_csv("C:/Users/rayli/Desktop/Algorithms/Project2/Algorithms_Project_2/src/data/airlines.csv", encoding='ISO-8859-1', skipinitialspace=True)
 
 # assigning column names for airports file because names are not provided in the original file
 col_names_airports = [
