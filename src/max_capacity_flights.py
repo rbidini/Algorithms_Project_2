@@ -11,4 +11,4 @@ max_capacity = final_df.groupby(['source city', 'destination city'])['capacity']
 final_df_filtered = pd.merge(final_df, max_capacity, on=['source city', 'destination city', 'capacity'])
 
 # Saving final_df_filtered to csv file
-final_df.to_csv('data/final_max_capacity_flights.csv', index=False)
+final_df_filtered.to_csv('data/final_max_capacity_flights.csv', index=False)
