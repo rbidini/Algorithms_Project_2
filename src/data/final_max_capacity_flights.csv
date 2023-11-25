@@ -1,0 +1,1072 @@
+source airport,source airport id,destination apirport,destination airport id,source city,destination city,airline name,plane model,capacity
+JFK,3797,EZE,3988,New York,Buenos Aires,LAN Argentina,Boeing 777,388
+JFK,3797,MEX,1824,New York,Mexico City,Interjet (ABC Aerolineas),Airbus A320,158
+JFK,3797,MSY,3861,New York,New Orleans,Pinnacle Airlines,Canadair Regional Jet 900,0
+LGA,3697,MSY,3861,New York,New Orleans,Pinnacle Airlines,Canadair Regional Jet 900,0
+JFK,3797,AMM,2170,New York,Amman,American Airlines,Airbus A340,0
+JFK,3797,AMM,2170,New York,Amman,American Airlines,Airbus A330,0
+JFK,3797,ANU,2874,New York,Antigua,American Airlines,Boeing 737-800,160
+JFK,3797,AUH,2179,New York,Abu Dhabi,American Airlines,Boeing 777,388
+JFK,3797,AUS,3673,New York,Austin,American Airlines,Boeing 737-800,160
+JFK,3797,BCN,1218,New York,Barcelona,American Airlines,Boeing 767-300,148
+JFK,3797,BDA,4069,New York,Bermuda,American Airlines,Boeing 737-800,160
+JFK,3797,BNA,3690,New York,Nashville,American Airlines,Embraer RJ145,0
+JFK,3797,BOS,3448,New York,Boston,American Airlines,Boeing 737-800,160
+JFK,3797,BWI,3849,New York,Baltimore,American Airlines,Embraer RJ145,0
+JFK,3797,CCS,2851,New York,Caracas,American Airlines,Boeing 757,0
+JFK,3797,CCS,2851,New York,Caracas,American Airlines,Boeing 737-800,160
+JFK,3797,CDG,1382,New York,Paris,American Airlines,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,American Airlines,Boeing 757,0
+JFK,3797,CLE,3486,New York,Cleveland,American Airlines,Embraer RJ145,0
+JFK,3797,CLT,3876,New York,Charlotte,American Airlines,Airbus A321,192
+JFK,3797,CLT,3876,New York,Charlotte,American Airlines,Airbus A319,132
+JFK,3797,CMH,3759,New York,Columbus,American Airlines,Embraer RJ145,0
+JFK,3797,CMH,3759,New York,Columbus,American Airlines,Canadair Regional Jet 700,0
+JFK,3797,CUN,1852,New York,Cancun,American Airlines,Boeing 737-800,160
+JFK,3797,CVG,3488,New York,Cincinnati,American Airlines,Embraer RJ145,0
+JFK,3797,DCA,3520,New York,Washington,American Airlines,Boeing 737-800,160
+JFK,3797,DFW,3670,New York,Dallas-Fort Worth,American Airlines,Boeing 737-800,160
+JFK,3797,DFW,3670,New York,Dallas-Fort Worth,American Airlines,Boeing 757,0
+JFK,3797,DOH,11051,New York,Doha,American Airlines,Boeing 777,388
+JFK,3797,DUB,599,New York,Dublin,American Airlines,Boeing 757,0
+JFK,3797,DUS,345,New York,Duesseldorf,American Airlines,Airbus A330,0
+JFK,3797,EZE,3988,New York,Buenos Aires,American Airlines,Boeing 777,388
+JFK,3797,FCO,1555,New York,Rome,American Airlines,Boeing 767-300,148
+JFK,3797,GIG,2560,New York,Rio De Janeiro,American Airlines,Boeing 767-300,148
+JFK,3797,GRU,2564,New York,Sao Paulo,American Airlines,Boeing 777-300,350
+JFK,3797,GRU,2564,New York,Sao Paulo,American Airlines,Boeing 777-300ER,396
+JFK,3797,GRU,2564,New York,Sao Paulo,American Airlines,Boeing 777,388
+JFK,3797,GYE,2673,New York,Guayaquil,American Airlines,Boeing 767-300,148
+JFK,3797,HEL,421,New York,Helsinki,American Airlines,Airbus A330,0
+JFK,3797,HKG,3077,New York,Hong Kong,American Airlines,Boeing 777-300,350
+JFK,3797,IND,3585,New York,Indianapolis,American Airlines,Embraer RJ145,0
+JFK,3797,LAS,3877,New York,Las Vegas,American Airlines,Boeing 737-800,160
+JFK,3797,LAX,3484,New York,Los Angeles,American Airlines,Boeing 767-200,290
+JFK,3797,LCY,503,New York,London,American Airlines,Airbus A318,132
+JFK,3797,LHR,507,New York,London,American Airlines,Boeing 777,388
+JFK,3797,LHR,507,New York,London,American Airlines,Boeing 777-300ER,396
+JFK,3797,LIM,2789,New York,Lima,American Airlines,Boeing 767-300,148
+JFK,3797,MAD,1229,New York,Madrid,American Airlines,Airbus A330,0
+JFK,3797,MAD,1229,New York,Madrid,American Airlines,Boeing 757,0
+JFK,3797,MAD,1229,New York,Madrid,American Airlines,Airbus A340,0
+JFK,3797,MAN,478,New York,Manchester,American Airlines,Boeing 757,0
+JFK,3797,MCO,3878,New York,Orlando,American Airlines,Boeing 767-300,148
+JFK,3797,MCO,3878,New York,Orlando,American Airlines,Boeing 757,0
+JFK,3797,MIA,3576,New York,Miami,American Airlines,Boeing 757,0
+JFK,3797,MIA,3576,New York,Miami,American Airlines,Boeing 767-300,148
+JFK,3797,MIA,3576,New York,Miami,American Airlines,Boeing 737-800,160
+JFK,3797,MXP,1524,New York,Milano,American Airlines,Boeing 767-300,148
+JFK,3797,NRT,2279,New York,Tokyo,American Airlines,Boeing 787,0
+JFK,3797,NRT,2279,New York,Tokyo,American Airlines,Boeing 777-300,350
+JFK,3797,ORD,3830,New York,Chicago,American Airlines,Boeing 737-800,160
+JFK,3797,ORF,3611,New York,Norfolk,American Airlines,Embraer RJ145,0
+JFK,3797,ORY,1386,New York,Paris,American Airlines,Boeing 757,0
+JFK,3797,PAP,1897,New York,Port-au-prince,American Airlines,Boeing 767-300,148
+JFK,3797,PHX,3462,New York,Phoenix,American Airlines,Airbus A321,192
+JFK,3797,PIT,3570,New York,Pittsburgh,American Airlines,Embraer RJ145,0
+JFK,3797,RDU,3626,New York,Raleigh-durham,American Airlines,Embraer RJ140,0
+JFK,3797,RDU,3626,New York,Raleigh-durham,American Airlines,Canadair Regional Jet 700,0
+JFK,3797,SAN,3731,New York,San Diego,American Airlines,Boeing 737-800,160
+JFK,3797,SCL,2650,New York,Santiago,American Airlines,Boeing 787,0
+JFK,3797,SEA,3577,New York,Seattle,American Airlines,Boeing 737-800,160
+JFK,3797,SFO,3469,New York,San Francisco,American Airlines,Boeing 767-300,148
+JFK,3797,SJO,1885,New York,San Jose,American Airlines,Boeing 737-800,160
+JFK,3797,SJU,2890,New York,San Juan,American Airlines,Boeing 757,0
+JFK,3797,STT,2883,New York,St. Thomas,American Airlines,Boeing 757,0
+JFK,3797,SXM,2899,New York,Philipsburg,American Airlines,Boeing 757,0
+JFK,3797,TPA,3646,New York,Tampa,American Airlines,Canadair Regional Jet 700,0
+JFK,3797,TXL,351,New York,Berlin,American Airlines,Airbus A330,0
+JFK,3797,YUL,146,New York,Montreal,American Airlines,Embraer RJ140,0
+JFK,3797,YYC,178,New York,Calgary,American Airlines,Boeing 737,0
+JFK,3797,YYZ,193,New York,Toronto,American Airlines,Canadair Regional Jet 700,0
+JFK,3797,ZRH,1678,New York,Zurich,American Airlines,Boeing 767-300,148
+LGA,3697,BNA,3690,New York,Nashville,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,BOS,3448,New York,Boston,American Airlines,Airbus A319,132
+LGA,3697,BOS,3448,New York,Boston,American Airlines,Embraer 190,0
+LGA,3697,CHO,4015,New York,Charlottesville VA,American Airlines,Embraer RJ140,0
+LGA,3697,CLT,3876,New York,Charlotte,American Airlines,Airbus A321,192
+LGA,3697,CLT,3876,New York,Charlotte,American Airlines,Airbus A319,132
+LGA,3697,CLT,3876,New York,Charlotte,American Airlines,Airbus A320,158
+LGA,3697,CMH,3759,New York,Columbus,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,CMH,3759,New York,Columbus,American Airlines,Embraer RJ140,0
+LGA,3697,DAY,3627,New York,Dayton,American Airlines,Embraer RJ140,0
+LGA,3697,DCA,3520,New York,Washington,American Airlines,Airbus A319,132
+LGA,3697,DCA,3520,New York,Washington,American Airlines,Embraer 190,0
+LGA,3697,DFW,3670,New York,Dallas-Fort Worth,American Airlines,Boeing 737-800,160
+LGA,3697,DTW,3645,New York,Detroit,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,GSO,4008,New York,Greensboro,American Airlines,Embraer RJ140,0
+LGA,3697,ILM,3845,New York,Wilmington,American Airlines,Embraer RJ140,0
+LGA,3697,LIT,3660,New York,Little Rock,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,MIA,3576,New York,Miami,American Airlines,Boeing 737-800,160
+LGA,3697,ORD,3830,New York,Chicago,American Airlines,Boeing 737-800,160
+LGA,3697,ORF,3611,New York,Norfolk,American Airlines,Embraer RJ140,0
+LGA,3697,PBI,3722,New York,West Palm Beach,American Airlines,Boeing 737-800,160
+LGA,3697,PHL,3752,New York,Philadelphia,American Airlines,Embraer 190,0
+LGA,3697,PHL,3752,New York,Philadelphia,American Airlines,De Havilland Canada DHC-8-300 Dash 8,0
+LGA,3697,PHL,3752,New York,Philadelphia,American Airlines,Airbus A319,132
+LGA,3697,PIT,3570,New York,Pittsburgh,American Airlines,Embraer 175,0
+LGA,3697,RDU,3626,New York,Raleigh-durham,American Airlines,Embraer RJ140,0
+LGA,3697,RDU,3626,New York,Raleigh-durham,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,RIC,3608,New York,Richmond,American Airlines,Embraer RJ140,0
+LGA,3697,ROA,4016,New York,Roanoke VA,American Airlines,Embraer RJ140,0
+LGA,3697,SDF,4014,New York,Louisville,American Airlines,Embraer RJ140,0
+LGA,3697,STL,3678,New York,St. Louis,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,TYS,3676,New York,Knoxville,American Airlines,Embraer RJ140,0
+LGA,3697,XNA,4356,New York,Bentonville,American Airlines,Canadair Regional Jet 700,0
+LGA,3697,YUL,146,New York,Montreal,American Airlines,Embraer RJ140,0
+LGA,3697,YYZ,193,New York,Toronto,American Airlines,Canadair Regional Jet 700,0
+JFK,3797,DUS,345,New York,Duesseldorf,Air Berlin,Airbus A330-200,234
+JFK,3797,TXL,351,New York,Berlin,Air Berlin,Airbus A330-200,234
+LGA,3697,YUL,146,New York,Montreal,Air Canada,Embraer 175,0
+LGA,3697,YYZ,193,New York,Toronto,Air Canada,Embraer 190,0
+LGA,3697,YYZ,193,New York,Toronto,Air Canada,Embraer 175,0
+JFK,3797,ATL,3682,New York,Atlanta,Air France,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,Air France,Boeing 737-800,160
+JFK,3797,ATL,3682,New York,Atlanta,Air France,Boeing 757-200,162
+JFK,3797,BCN,1218,New York,Barcelona,Air France,Airbus A330-300,293
+JFK,3797,CDG,1382,New York,Paris,Air France,Airbus A330-200,234
+JFK,3797,CDG,1382,New York,Paris,Air France,Boeing 777-200,308
+JFK,3797,CDG,1382,New York,Paris,Air France,Airbus A380-800,520
+JFK,3797,CDG,1382,New York,Paris,Air France,Airbus A340-300,440
+JFK,3797,DUB,599,New York,Dublin,Air France,Boeing 757-200,162
+JFK,3797,LHR,507,New York,London,Air France,Boeing 767-400,409
+JFK,3797,MAD,1229,New York,Madrid,Air France,Boeing 767-400,409
+JFK,3797,MSY,3861,New York,New Orleans,Air France,Canadair Regional Jet 900,0
+JFK,3797,NCE,1354,New York,Nice,Air France,Boeing 767-400,409
+JFK,3797,PAP,1897,New York,Port-au-prince,Air France,Boeing 737-800,160
+LGA,3697,ATL,3682,New York,Atlanta,Air France,McDonnell Douglas MD-88,149
+LGA,3697,ATL,3682,New York,Atlanta,Air France,Boeing 757,0
+JFK,3797,DEL,3093,New York,Delhi,Air India Limited,Boeing 777-300ER,396
+JFK,3797,LHR,507,New York,London,Air India Limited,Boeing 777-200,308
+JFK,3797,ATL,3682,New York,Atlanta,AeroMÃ©xico,Boeing 757-200,162
+JFK,3797,ATL,3682,New York,Atlanta,AeroMÃ©xico,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,AeroMÃ©xico,Boeing 757,0
+JFK,3797,ATL,3682,New York,Atlanta,AeroMÃ©xico,Boeing 737-800,160
+JFK,3797,CUN,1852,New York,Cancun,AeroMÃ©xico,Boeing 737-800,160
+JFK,3797,MEX,1824,New York,Mexico City,AeroMÃ©xico,Boeing 737-800,160
+JFK,3797,MEX,1824,New York,Mexico City,AeroMÃ©xico,Boeing 787,0
+LGA,3697,ATL,3682,New York,Atlanta,AeroMÃ©xico,McDonnell Douglas MD-88,149
+LGA,3697,ATL,3682,New York,Atlanta,AeroMÃ©xico,Boeing 757,0
+LGA,3697,ATL,3682,New York,Atlanta,AeroMÃ©xico,Boeing 737-800,160
+JFK,3797,EZE,3988,New York,Buenos Aires,Aerolineas Argentinas,Airbus A330,0
+JFK,3797,LAX,3484,New York,Los Angeles,Alaska Airlines,Airbus A321,192
+JFK,3797,LAX,3484,New York,Los Angeles,Alaska Airlines,Boeing 767-200,290
+JFK,3797,SAN,3731,New York,San Diego,Alaska Airlines,Boeing 757,0
+JFK,3797,SEA,3577,New York,Seattle,Alaska Airlines,Boeing 737-800,160
+JFK,3797,SFO,3469,New York,San Francisco,Alaska Airlines,Airbus A321,192
+JFK,3797,SFO,3469,New York,San Francisco,Alaska Airlines,Boeing 767-300,148
+JFK,3797,CMN,1074,New York,Casablanca,Royal Air Maroc,Boeing 767-300,148
+JFK,3797,BOG,2709,New York,Bogota,Avianca - Aerovias Nacionales de Colombia,Airbus A319,132
+JFK,3797,BOG,2709,New York,Bogota,Avianca - Aerovias Nacionales de Colombia,Airbus A330,0
+JFK,3797,MDE,2745,New York,Rio Negro,Avianca - Aerovias Nacionales de Colombia,Airbus A319,132
+JFK,3797,SAL,1892,New York,San Salvador,Avianca - Aerovias Nacionales de Colombia,Airbus A320,158
+JFK,3797,SAL,1892,New York,San Salvador,Avianca - Aerovias Nacionales de Colombia,Airbus A321,192
+JFK,3797,SAP,1772,New York,San Pedro Sula,Avianca - Aerovias Nacionales de Colombia,Airbus A320,158
+JFK,3797,BCN,1218,New York,Barcelona,Finnair,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,Finnair,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,Finnair,Boeing 757,0
+JFK,3797,DUB,599,New York,Dublin,Finnair,Boeing 757,0
+JFK,3797,FCO,1555,New York,Rome,Finnair,Boeing 767-300,148
+JFK,3797,HEL,421,New York,Helsinki,Finnair,Airbus A330-300,293
+JFK,3797,LCY,503,New York,London,Finnair,Airbus A318,132
+JFK,3797,LHR,507,New York,London,Finnair,Boeing 747-400,366
+JFK,3797,LHR,507,New York,London,Finnair,Boeing 777-300ER,396
+JFK,3797,LHR,507,New York,London,Finnair,Boeing 777,388
+JFK,3797,MAD,1229,New York,Madrid,Finnair,Airbus A330-300,293
+JFK,3797,MAD,1229,New York,Madrid,Finnair,Boeing 757,0
+JFK,3797,MAD,1229,New York,Madrid,Finnair,Airbus A340-600,475
+JFK,3797,MAN,478,New York,Manchester,Finnair,Boeing 757,0
+JFK,3797,MXP,1524,New York,Milano,Finnair,Boeing 767-300,148
+JFK,3797,SJU,2890,New York,San Juan,Finnair,Boeing 757,0
+JFK,3797,YUL,146,New York,Montreal,Finnair,Embraer RJ140,0
+JFK,3797,YYZ,193,New York,Toronto,Finnair,Canadair Regional Jet 700,0
+JFK,3797,ATL,3682,New York,Atlanta,Alitalia,Boeing 757-200,162
+JFK,3797,ATL,3682,New York,Atlanta,Alitalia,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,Alitalia,McDonnell Douglas MD-88,149
+JFK,3797,ATL,3682,New York,Atlanta,Alitalia,Boeing 737-800,160
+JFK,3797,CDG,1382,New York,Paris,Alitalia,Airbus A330-200,234
+JFK,3797,CDG,1382,New York,Paris,Alitalia,Airbus A380-800,520
+JFK,3797,CDG,1382,New York,Paris,Alitalia,Boeing 777-200,308
+JFK,3797,CDG,1382,New York,Paris,Alitalia,Airbus A340-300,440
+JFK,3797,FCO,1555,New York,Rome,Alitalia,Boeing 777-200,308
+JFK,3797,FCO,1555,New York,Rome,Alitalia,Airbus A330,0
+JFK,3797,MEX,1824,New York,Mexico City,Alitalia,Boeing 737-800,160
+JFK,3797,MSY,3861,New York,New Orleans,Alitalia,Canadair Regional Jet 900,0
+JFK,3797,MXP,1524,New York,Milano,Alitalia,Airbus A330,0
+JFK,3797,VCE,1551,New York,Venice,Alitalia,Boeing 767-400,409
+JFK,3797,YYZ,193,New York,Toronto,Alitalia,Canadair Regional Jet 700,0
+JFK,3797,ABQ,4019,New York,Albuquerque,JetBlue Airways,Airbus A320,158
+JFK,3797,AUA,2895,New York,Oranjestad,JetBlue Airways,Airbus A320,158
+JFK,3797,AUS,3673,New York,Austin,JetBlue Airways,Airbus A320,158
+JFK,3797,AZS,5810,New York,Samana,JetBlue Airways,Airbus A320,158
+JFK,3797,BDA,4069,New York,Bermuda,JetBlue Airways,Airbus A320,158
+JFK,3797,BGI,2875,New York,Bridgetown,JetBlue Airways,Airbus A321,192
+JFK,3797,BOS,3448,New York,Boston,JetBlue Airways,Embraer 190,0
+JFK,3797,BOS,3448,New York,Boston,JetBlue Airways,Airbus A320,158
+JFK,3797,BQN,2885,New York,Aguadilla,JetBlue Airways,Airbus A320,158
+JFK,3797,BTV,3711,New York,Burlington,JetBlue Airways,Embraer 190,0
+JFK,3797,BUF,3820,New York,Buffalo,JetBlue Airways,Embraer 190,0
+JFK,3797,BUF,3820,New York,Buffalo,JetBlue Airways,Airbus A320,158
+JFK,3797,BUR,3644,New York,Burbank,JetBlue Airways,Airbus A320,158
+JFK,3797,CHS,3806,New York,Charleston,JetBlue Airways,Airbus A320,158
+JFK,3797,CLT,3876,New York,Charlotte,JetBlue Airways,Embraer 190,0
+JFK,3797,CTG,2714,New York,Cartagena,JetBlue Airways,Airbus A320,158
+JFK,3797,CUN,1852,New York,Cancun,JetBlue Airways,Airbus A320,158
+JFK,3797,DEN,3751,New York,Denver,JetBlue Airways,Airbus A320,158
+JFK,3797,DXB,2188,New York,Dubai,JetBlue Airways,Airbus A380-800,520
+JFK,3797,FLL,3533,New York,Fort Lauderdale,JetBlue Airways,Airbus A320,158
+JFK,3797,FLL,3533,New York,Fort Lauderdale,JetBlue Airways,Embraer 190,0
+JFK,3797,GCM,1926,New York,Georgetown,JetBlue Airways,Airbus A320,158
+JFK,3797,HOU,3566,New York,Houston,JetBlue Airways,Embraer 190,0
+JFK,3797,IAD,3714,New York,Washington,JetBlue Airways,Embraer 190,0
+JFK,3797,JAX,3712,New York,Jacksonville,JetBlue Airways,Airbus A320,158
+JFK,3797,JNB,813,New York,Johannesburg,JetBlue Airways,Airbus A340-600,475
+JFK,3797,KIN,1779,New York,Kingston,JetBlue Airways,Airbus A320,158
+JFK,3797,LAS,3877,New York,Las Vegas,JetBlue Airways,Airbus A320,158
+JFK,3797,LAX,3484,New York,Los Angeles,JetBlue Airways,Airbus A320,158
+JFK,3797,LGB,3582,New York,Long Beach,JetBlue Airways,Airbus A320,158
+JFK,3797,LIR,1881,New York,Liberia,JetBlue Airways,Airbus A320,158
+JFK,3797,LRM,1759,New York,La Romana,JetBlue Airways,Airbus A320,158
+JFK,3797,MBJ,1780,New York,Montego Bay,JetBlue Airways,Airbus A320,158
+JFK,3797,MCO,3878,New York,Orlando,JetBlue Airways,Airbus A320,158
+JFK,3797,MCO,3878,New York,Orlando,JetBlue Airways,Embraer 190,0
+JFK,3797,MSY,3861,New York,New Orleans,JetBlue Airways,Embraer 190,0
+JFK,3797,MSY,3861,New York,New Orleans,JetBlue Airways,Airbus A320,158
+JFK,3797,MXP,1524,New York,Milano,JetBlue Airways,Boeing 777-300ER,396
+JFK,3797,NAS,1953,New York,Nassau,JetBlue Airways,Airbus A320,158
+JFK,3797,NAS,1953,New York,Nassau,JetBlue Airways,Embraer 190,0
+JFK,3797,OAK,3453,New York,Oakland,JetBlue Airways,Airbus A320,158
+JFK,3797,ORD,3830,New York,Chicago,JetBlue Airways,Airbus A320,158
+JFK,3797,ORD,3830,New York,Chicago,JetBlue Airways,Embraer 190,0
+JFK,3797,PAP,1897,New York,Port-au-prince,JetBlue Airways,Airbus A320,158
+JFK,3797,PBI,3722,New York,West Palm Beach,JetBlue Airways,Embraer 190,0
+JFK,3797,PBI,3722,New York,West Palm Beach,JetBlue Airways,Airbus A320,158
+JFK,3797,PDX,3720,New York,Portland,JetBlue Airways,Airbus A320,158
+JFK,3797,PHX,3462,New York,Phoenix,JetBlue Airways,Airbus A320,158
+JFK,3797,PLS,1754,New York,Providenciales,JetBlue Airways,Airbus A320,158
+JFK,3797,POP,1761,New York,Puerto Plata,JetBlue Airways,Airbus A320,158
+JFK,3797,POS,2902,New York,Port-of-spain,JetBlue Airways,Airbus A320,158
+JFK,3797,PSE,2889,New York,Ponce,JetBlue Airways,Airbus A320,158
+JFK,3797,PUJ,1760,New York,Punta Cana,JetBlue Airways,Airbus A321,192
+JFK,3797,PUJ,1760,New York,Punta Cana,JetBlue Airways,Airbus A320,158
+JFK,3797,PWM,3862,New York,Portland,JetBlue Airways,Embraer 190,0
+JFK,3797,RDU,3626,New York,Raleigh-durham,JetBlue Airways,Embraer 190,0
+JFK,3797,ROC,3622,New York,Rochester,JetBlue Airways,Embraer 190,0
+JFK,3797,RSW,3793,New York,Fort Myers,JetBlue Airways,Airbus A320,158
+JFK,3797,SAN,3731,New York,San Diego,JetBlue Airways,Airbus A320,158
+JFK,3797,SAV,3613,New York,Savannah,JetBlue Airways,Airbus A320,158
+JFK,3797,SDQ,1762,New York,Santo Domingo,JetBlue Airways,Airbus A321,192
+JFK,3797,SDQ,1762,New York,Santo Domingo,JetBlue Airways,Airbus A320,158
+JFK,3797,SEA,3577,New York,Seattle,JetBlue Airways,Airbus A320,158
+JFK,3797,SFO,3469,New York,San Francisco,JetBlue Airways,Airbus A320,158
+JFK,3797,SJC,3748,New York,San Jose,JetBlue Airways,Airbus A320,158
+JFK,3797,SJU,2890,New York,San Juan,JetBlue Airways,Airbus A320,158
+JFK,3797,SLC,3536,New York,Salt Lake City,JetBlue Airways,Airbus A320,158
+JFK,3797,SMF,3817,New York,Sacramento,JetBlue Airways,Airbus A320,158
+JFK,3797,SRQ,4067,New York,Sarasota,JetBlue Airways,Embraer 190,0
+JFK,3797,STI,1764,New York,Santiago,JetBlue Airways,Airbus A320,158
+JFK,3797,STI,1764,New York,Santiago,JetBlue Airways,Airbus A321,192
+JFK,3797,SXM,2899,New York,Philipsburg,JetBlue Airways,Airbus A320,158
+JFK,3797,SYR,3745,New York,Syracuse,JetBlue Airways,Embraer 190,0
+JFK,3797,TPA,3646,New York,Tampa,JetBlue Airways,Airbus A320,158
+JFK,3797,TPA,3646,New York,Tampa,JetBlue Airways,Embraer 190,0
+JFK,3797,UVF,2894,New York,Hewandorra,JetBlue Airways,Airbus A320,158
+LGA,3697,FLL,3533,New York,Fort Lauderdale,JetBlue Airways,Airbus A320,158
+LGA,3697,MCO,3878,New York,Orlando,JetBlue Airways,Airbus A320,158
+LGA,3697,PBI,3722,New York,West Palm Beach,JetBlue Airways,Airbus A320,158
+LGA,3697,PBI,3722,New York,West Palm Beach,JetBlue Airways,Embraer 190,0
+LGA,3697,RSW,3793,New York,Fort Myers,JetBlue Airways,Airbus A320,158
+LGA,3697,SRQ,4067,New York,Sarasota,JetBlue Airways,Airbus A320,158
+LGA,3697,TPA,3646,New York,Tampa,JetBlue Airways,Airbus A320,158
+JFK,3797,BCN,1218,New York,Barcelona,British Airways,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,British Airways,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,British Airways,Boeing 757,0
+JFK,3797,DUB,599,New York,Dublin,British Airways,Boeing 757,0
+JFK,3797,FCO,1555,New York,Rome,British Airways,Boeing 767-300,148
+JFK,3797,HEL,421,New York,Helsinki,British Airways,Airbus A330-300,293
+JFK,3797,LCY,503,New York,London,British Airways,Airbus A318,132
+JFK,3797,LHR,507,New York,London,British Airways,Boeing 777,388
+JFK,3797,LHR,507,New York,London,British Airways,Boeing 747-400,366
+JFK,3797,MAD,1229,New York,Madrid,British Airways,Airbus A330-300,293
+JFK,3797,MAD,1229,New York,Madrid,British Airways,Boeing 757,0
+JFK,3797,MAD,1229,New York,Madrid,British Airways,Airbus A340-600,475
+JFK,3797,MAN,478,New York,Manchester,British Airways,Boeing 757,0
+JFK,3797,MXP,1524,New York,Milano,British Airways,Boeing 767-300,148
+JFK,3797,ORY,1386,New York,Paris,British Airways,Boeing 757-200,162
+JFK,3797,TPE,2276,New York,Taipei,EVA Air,Boeing 777-300ER,396
+JFK,3797,GEO,4304,New York,Georgetown,Caribbean Airlines,Boeing 767,375
+JFK,3797,GND,2882,New York,Point Salines,Caribbean Airlines,Boeing 737-800,160
+JFK,3797,KIN,1779,New York,Kingston,Caribbean Airlines,Boeing 737-800,160
+JFK,3797,MBJ,1780,New York,Montego Bay,Caribbean Airlines,Boeing 737-800,160
+JFK,3797,POS,2902,New York,Port-of-spain,Caribbean Airlines,Boeing 737-800,160
+JFK,3797,TAB,2901,New York,Scarborough,Caribbean Airlines,Boeing 737-800,160
+JFK,3797,PEK,3364,New York,Beijing,Air China,Boeing 777-300,350
+JFK,3797,KIX,3992,New York,Osaka,China Airlines,Boeing 747-400,366
+JFK,3797,PTY,1871,New York,Panama City,Copa Airlines,Boeing 737-800,160
+JFK,3797,HKG,3077,New York,Hong Kong,Cathay Pacific,Boeing 777-300ER,396
+JFK,3797,YVR,156,New York,Vancouver,Cathay Pacific,Boeing 777-300ER,396
+JFK,3797,ATL,3682,New York,Atlanta,Delta Air Lines,Boeing 757-200,162
+JFK,3797,ATL,3682,New York,Atlanta,Delta Air Lines,Boeing 757,0
+JFK,3797,ATL,3682,New York,Atlanta,Delta Air Lines,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,Delta Air Lines,Boeing 737-800,160
+JFK,3797,ATL,3682,New York,Atlanta,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,AUS,3673,New York,Austin,Delta Air Lines,Airbus A319,132
+JFK,3797,BCN,1218,New York,Barcelona,Delta Air Lines,Airbus A330-300,293
+JFK,3797,BNA,3690,New York,Nashville,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,BOS,3448,New York,Boston,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,BOS,3448,New York,Boston,Delta Air Lines,Boeing 757-200,162
+JFK,3797,BOS,3448,New York,Boston,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,BUF,3820,New York,Buffalo,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,BUF,3820,New York,Buffalo,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,CDG,1382,New York,Paris,Delta Air Lines,Airbus A330-200,234
+JFK,3797,CDG,1382,New York,Paris,Delta Air Lines,Boeing 777-200,308
+JFK,3797,CDG,1382,New York,Paris,Delta Air Lines,Airbus A380-800,520
+JFK,3797,CDG,1382,New York,Paris,Delta Air Lines,Airbus A340-300,440
+JFK,3797,CUN,1852,New York,Cancun,Delta Air Lines,Boeing 737-800,160
+JFK,3797,CVG,3488,New York,Cincinnati,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,CVG,3488,New York,Cincinnati,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,DCA,3520,New York,Washington,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,DFW,3670,New York,Dallas-Fort Worth,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,DKR,1084,New York,Dakar,Delta Air Lines,Boeing 757-200,162
+JFK,3797,DTW,3645,New York,Detroit,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,DTW,3645,New York,Detroit,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,DTW,3645,New York,Detroit,Delta Air Lines,Airbus A319,132
+JFK,3797,DUB,599,New York,Dublin,Delta Air Lines,Boeing 757-200,162
+JFK,3797,FCO,1555,New York,Rome,Delta Air Lines,Boeing 777-200,308
+JFK,3797,FCO,1555,New York,Rome,Delta Air Lines,Airbus A330-300,293
+JFK,3797,FCO,1555,New York,Rome,Delta Air Lines,Airbus A330,0
+JFK,3797,FLL,3533,New York,Fort Lauderdale,Delta Air Lines,Boeing 757-200,162
+JFK,3797,FLL,3533,New York,Fort Lauderdale,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,FLL,3533,New York,Fort Lauderdale,Delta Air Lines,Boeing 737-800,160
+JFK,3797,GRU,2564,New York,Sao Paulo,Delta Air Lines,Boeing 767-400,409
+JFK,3797,GUA,1767,New York,Guatemala City,Delta Air Lines,Boeing 757-200,162
+JFK,3797,IAD,3714,New York,Washington,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,ICN,3930,New York,Seoul,Delta Air Lines,Boeing 777-300ER,396
+JFK,3797,ICN,3930,New York,Seoul,Delta Air Lines,Airbus A380-800,520
+JFK,3797,IND,3585,New York,Indianapolis,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,JAX,3712,New York,Jacksonville,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,LAS,3877,New York,Las Vegas,Delta Air Lines,Boeing 737-800,160
+JFK,3797,LAS,3877,New York,Las Vegas,Delta Air Lines,Boeing 757,0
+JFK,3797,LAX,3484,New York,Los Angeles,Delta Air Lines,Boeing 757-200,162
+JFK,3797,LHR,507,New York,London,Delta Air Lines,Boeing 767-400,409
+JFK,3797,MAD,1229,New York,Madrid,Delta Air Lines,Boeing 767-400,409
+JFK,3797,MCO,3878,New York,Orlando,Delta Air Lines,Boeing 757-200,162
+JFK,3797,MCO,3878,New York,Orlando,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,MCO,3878,New York,Orlando,Delta Air Lines,Boeing 737-800,160
+JFK,3797,MEX,1824,New York,Mexico City,Delta Air Lines,Boeing 737-800,160
+JFK,3797,MEX,1824,New York,Mexico City,Delta Air Lines,Boeing 757,0
+JFK,3797,MEX,1824,New York,Mexico City,Delta Air Lines,Boeing 787,0
+JFK,3797,MIA,3576,New York,Miami,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,MIA,3576,New York,Miami,Delta Air Lines,Boeing 737-800,160
+JFK,3797,MIA,3576,New York,Miami,Delta Air Lines,Airbus A319,132
+JFK,3797,MSP,3858,New York,Minneapolis,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,MSP,3858,New York,Minneapolis,Delta Air Lines,Airbus A319,132
+JFK,3797,MSP,3858,New York,Minneapolis,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,MSY,3861,New York,New Orleans,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,MXP,1524,New York,Milano,Delta Air Lines,Boeing 767-400,409
+JFK,3797,MXP,1524,New York,Milano,Delta Air Lines,Airbus A330,0
+JFK,3797,NAS,1953,New York,Nassau,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,NCE,1354,New York,Nice,Delta Air Lines,Boeing 767-400,409
+JFK,3797,NRT,2279,New York,Tokyo,Delta Air Lines,Boeing 747-400,366
+JFK,3797,ORD,3830,New York,Chicago,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,PAP,1897,New York,Port-au-prince,Delta Air Lines,Boeing 737-800,160
+JFK,3797,PDX,3720,New York,Portland,Delta Air Lines,Boeing 757-200,162
+JFK,3797,PHL,3752,New York,Philadelphia,Delta Air Lines,Boeing 757-200,162
+JFK,3797,PHX,3462,New York,Phoenix,Delta Air Lines,Boeing 737-800,160
+JFK,3797,PIT,3570,New York,Pittsburgh,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,PIT,3570,New York,Pittsburgh,Delta Air Lines,Boeing 757-200,162
+JFK,3797,PVG,3406,New York,Shanghai,Delta Air Lines,Airbus A340-600,475
+JFK,3797,RDU,3626,New York,Raleigh-durham,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,RDU,3626,New York,Raleigh-durham,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,RIC,3608,New York,Richmond,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,ROC,3622,New York,Rochester,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,SAN,3731,New York,San Diego,Delta Air Lines,Boeing 757,0
+JFK,3797,SAV,3613,New York,Savannah,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,SAV,3613,New York,Savannah,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,SEA,3577,New York,Seattle,Delta Air Lines,Boeing 757-200,162
+JFK,3797,SEA,3577,New York,Seattle,Delta Air Lines,Boeing 757,0
+JFK,3797,SFO,3469,New York,San Francisco,Delta Air Lines,Boeing 757-200,162
+JFK,3797,SJO,1885,New York,San Jose,Delta Air Lines,Boeing 757,0
+JFK,3797,SJU,2890,New York,San Juan,Delta Air Lines,Boeing 757-200,162
+JFK,3797,SJU,2890,New York,San Juan,Delta Air Lines,Boeing 757,0
+JFK,3797,SLC,3536,New York,Salt Lake City,Delta Air Lines,Boeing 757,0
+JFK,3797,SLC,3536,New York,Salt Lake City,Delta Air Lines,Boeing 737-800,160
+JFK,3797,SLC,3536,New York,Salt Lake City,Delta Air Lines,Boeing 737-900,175
+JFK,3797,SLC,3536,New York,Salt Lake City,Delta Air Lines,Boeing 757-200,162
+JFK,3797,STL,3678,New York,St. Louis,Delta Air Lines,Canadair Regional Jet 700,0
+JFK,3797,STL,3678,New York,St. Louis,Delta Air Lines,Canadair Regional Jet 900,0
+JFK,3797,STT,2883,New York,St. Thomas,Delta Air Lines,Boeing 757,0
+JFK,3797,SVO,2985,New York,Moscow,Delta Air Lines,Airbus A330-300,293
+JFK,3797,SVO,2985,New York,Moscow,Delta Air Lines,Boeing 777-300ER,396
+JFK,3797,SXM,2899,New York,Philipsburg,Delta Air Lines,Boeing 757-200,162
+JFK,3797,TLV,1590,New York,Tel-aviv,Delta Air Lines,Boeing 747-400,366
+JFK,3797,TPA,3646,New York,Tampa,Delta Air Lines,McDonnell Douglas MD-88,149
+JFK,3797,TPA,3646,New York,Tampa,Delta Air Lines,Boeing 737-800,160
+JFK,3797,VCE,1551,New York,Venice,Delta Air Lines,Boeing 767-400,409
+JFK,3797,YYC,178,New York,Calgary,Delta Air Lines,Boeing 737-600,113
+JFK,3797,YYZ,193,New York,Toronto,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,ATL,3682,New York,Atlanta,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,ATL,3682,New York,Atlanta,Delta Air Lines,Boeing 757,0
+LGA,3697,ATL,3682,New York,Atlanta,Delta Air Lines,Airbus A320,158
+LGA,3697,ATL,3682,New York,Atlanta,Delta Air Lines,Boeing 737-800,160
+LGA,3697,ATL,3682,New York,Atlanta,Delta Air Lines,Boeing 737-900,175
+LGA,3697,AUA,2895,New York,Oranjestad,Delta Air Lines,Boeing 737-800,160
+LGA,3697,BGR,3463,New York,Bangor,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,BHM,3811,New York,Birmingham,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,BHM,3811,New York,Birmingham,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,BNA,3690,New York,Nashville,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,BNA,3690,New York,Nashville,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,BOS,3448,New York,Boston,Delta Air Lines,Embraer 175,0
+LGA,3697,BTV,3711,New York,Burlington,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,BUF,3820,New York,Buffalo,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,CHO,4015,New York,Charlottesville VA,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,CHS,3806,New York,Charleston,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,CLE,3486,New York,Cleveland,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,CLT,3876,New York,Charlotte,Delta Air Lines,Embraer 175,0
+LGA,3697,CLT,3876,New York,Charlotte,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,CMH,3759,New York,Columbus,Delta Air Lines,Embraer 170,0
+LGA,3697,CMH,3759,New York,Columbus,Delta Air Lines,Embraer 175,0
+LGA,3697,CMH,3759,New York,Columbus,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,CVG,3488,New York,Cincinnati,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,DCA,3520,New York,Washington,Delta Air Lines,Embraer 170,0
+LGA,3697,DCA,3520,New York,Washington,Delta Air Lines,Embraer 175,0
+LGA,3697,DEN,3751,New York,Denver,Delta Air Lines,Airbus A320,158
+LGA,3697,DFW,3670,New York,Dallas-Fort Worth,Delta Air Lines,Embraer 175,0
+LGA,3697,DSM,3729,New York,Des Moines,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,DTW,3645,New York,Detroit,Delta Air Lines,Airbus A319,132
+LGA,3697,DTW,3645,New York,Detroit,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,DTW,3645,New York,Detroit,Delta Air Lines,Boeing 737-800,160
+LGA,3697,FLL,3533,New York,Fort Lauderdale,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,FLL,3533,New York,Fort Lauderdale,Delta Air Lines,Boeing 737-800,160
+LGA,3697,FLL,3533,New York,Fort Lauderdale,Delta Air Lines,Airbus A319,132
+LGA,3697,GRR,3685,New York,Grand Rapids,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,GSO,4008,New York,Greensboro,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,IAH,3550,New York,Houston,Delta Air Lines,Embraer 170,0
+LGA,3697,IAH,3550,New York,Houston,Delta Air Lines,Embraer 175,0
+LGA,3697,IND,3585,New York,Indianapolis,Delta Air Lines,Embraer 175,0
+LGA,3697,IND,3585,New York,Indianapolis,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,JAX,3712,New York,Jacksonville,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,MCI,3458,New York,Kansas City,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,MCI,3458,New York,Kansas City,Delta Air Lines,Embraer 175,0
+LGA,3697,MCI,3458,New York,Kansas City,Delta Air Lines,Embraer 170,0
+LGA,3697,MCO,3878,New York,Orlando,Delta Air Lines,Airbus A319,132
+LGA,3697,MCO,3878,New York,Orlando,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,MCO,3878,New York,Orlando,Delta Air Lines,Boeing 737-800,160
+LGA,3697,MEM,3473,New York,Memphis,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,MIA,3576,New York,Miami,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,MIA,3576,New York,Miami,Delta Air Lines,Airbus A320,158
+LGA,3697,MIA,3576,New York,Miami,Delta Air Lines,Boeing 737-800,160
+LGA,3697,MKE,3717,New York,Milwaukee,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,MSN,3459,New York,Madison,Delta Air Lines,Embraer 170,0
+LGA,3697,MSP,3858,New York,Minneapolis,Delta Air Lines,Airbus A319,132
+LGA,3697,MSP,3858,New York,Minneapolis,Delta Air Lines,Airbus A320,158
+LGA,3697,MSP,3858,New York,Minneapolis,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,MSY,3861,New York,New Orleans,Delta Air Lines,Airbus A319,132
+LGA,3697,MYR,3515,New York,Myrtle Beach,Delta Air Lines,Embraer 175,0
+LGA,3697,OMA,3454,New York,Omaha,Delta Air Lines,Embraer 175,0
+LGA,3697,ORD,3830,New York,Chicago,Delta Air Lines,Embraer 175,0
+LGA,3697,ORD,3830,New York,Chicago,Delta Air Lines,Embraer 170,0
+LGA,3697,ORF,3611,New York,Norfolk,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,PBI,3722,New York,West Palm Beach,Delta Air Lines,Airbus A319,132
+LGA,3697,PIT,3570,New York,Pittsburgh,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,PIT,3570,New York,Pittsburgh,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,PWM,3862,New York,Portland,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,RDU,3626,New York,Raleigh-durham,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,RIC,3608,New York,Richmond,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,ROC,3622,New York,Rochester,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,ROC,3622,New York,Rochester,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,RSW,3793,New York,Fort Myers,Delta Air Lines,Canadair Regional Jet 900,0
+LGA,3697,SAV,3613,New York,Savannah,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,SRQ,4067,New York,Sarasota,Delta Air Lines,Airbus A319,132
+LGA,3697,STL,3678,New York,St. Louis,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,SYR,3745,New York,Syracuse,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,TPA,3646,New York,Tampa,Delta Air Lines,Airbus A319,132
+LGA,3697,TPA,3646,New York,Tampa,Delta Air Lines,McDonnell Douglas MD-88,149
+LGA,3697,TPA,3646,New York,Tampa,Delta Air Lines,Airbus A320,158
+LGA,3697,YHZ,73,New York,Halifax,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,YUL,146,New York,Montreal,Delta Air Lines,Canadair Regional Jet 700,0
+LGA,3697,YYZ,193,New York,Toronto,Delta Air Lines,Boeing 737-600,113
+JFK,3797,ARN,737,New York,Stockholm,Norwegian Air Shuttle,Boeing 787-8,231
+JFK,3797,BGO,636,New York,Bergen,Norwegian Air Shuttle,Boeing 787-8,231
+JFK,3797,CPH,609,New York,Copenhagen,Norwegian Air Shuttle,Boeing 787-8,231
+JFK,3797,OSL,644,New York,Oslo,Norwegian Air Shuttle,Boeing 787-8,231
+JFK,3797,DUB,599,New York,Dublin,Aer Lingus,Airbus A330,0
+JFK,3797,SNN,603,New York,Shannon,Aer Lingus,Boeing 757,0
+JFK,3797,DXB,2188,New York,Dubai,Emirates,Airbus A380-800,520
+JFK,3797,MXP,1524,New York,Milano,Emirates,Boeing 777-300ER,396
+JFK,3797,FRA,340,New York,Frankfurt,Ethiopian Airlines,Boeing 747-400,366
+JFK,3797,AUH,2179,New York,Abu Dhabi,Etihad Airways,Boeing 777-300ER,396
+JFK,3797,CDG,1382,New York,Paris,Etihad Airways,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,Etihad Airways,Boeing 757,0
+JFK,3797,LAS,3877,New York,Las Vegas,Etihad Airways,Boeing 737-800,160
+JFK,3797,MSY,3861,New York,New Orleans,Etihad Airways,Embraer 190,0
+JFK,3797,MSY,3861,New York,New Orleans,Etihad Airways,Airbus A320,158
+LGA,3697,DEN,3751,New York,Denver,Frontier Airlines,Airbus A320,158
+LGA,3697,ATL,3682,New York,Atlanta,AirTran Airways,Boeing 717,0
+LGA,3697,CAK,4112,New York,Akron,AirTran Airways,Boeing 717,0
+JFK,3797,GRU,2564,New York,Sao Paulo,City Connexion Airlines,Boeing 767-400,409
+JFK,3797,HNL,3728,New York,Honolulu,Hawaiian Airlines,Airbus A330-200,234
+JFK,3797,LAS,3877,New York,Las Vegas,Hawaiian Airlines,Airbus A320,158
+JFK,3797,RIX,3953,New York,Riga,Uzbekistan Airways,Boeing 767-300,148
+JFK,3797,RIX,3953,New York,Riga,Uzbekistan Airways,Boeing 767-400,409
+JFK,3797,BCN,1218,New York,Barcelona,Iberia Airlines,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,Iberia Airlines,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,Iberia Airlines,Boeing 757,0
+JFK,3797,FCO,1555,New York,Rome,Iberia Airlines,Boeing 767-300,148
+JFK,3797,HEL,421,New York,Helsinki,Iberia Airlines,Airbus A330,0
+JFK,3797,LCY,503,New York,London,Iberia Airlines,Airbus A318,132
+JFK,3797,LHR,507,New York,London,Iberia Airlines,Boeing 747-400,366
+JFK,3797,LHR,507,New York,London,Iberia Airlines,Boeing 777-300ER,396
+JFK,3797,LHR,507,New York,London,Iberia Airlines,Boeing 777,388
+JFK,3797,MAD,1229,New York,Madrid,Iberia Airlines,Airbus A330-300,293
+JFK,3797,MAD,1229,New York,Madrid,Iberia Airlines,Airbus A340-600,475
+JFK,3797,MAN,478,New York,Manchester,Iberia Airlines,Boeing 757,0
+JFK,3797,MXP,1524,New York,Milano,Iberia Airlines,Boeing 767-300,148
+JFK,3797,ORY,1386,New York,Paris,Iberia Airlines,Boeing 757-200,162
+JFK,3797,GIG,2560,New York,Rio De Janeiro,TAM Brazilian Airlines,Boeing 767-300,148
+JFK,3797,GRU,2564,New York,Sao Paulo,TAM Brazilian Airlines,Boeing 777-300,350
+JFK,3797,GRU,2564,New York,Sao Paulo,TAM Brazilian Airlines,Boeing 777-300ER,396
+JFK,3797,GRU,2564,New York,Sao Paulo,TAM Brazilian Airlines,Boeing 777,388
+JFK,3797,LIM,2789,New York,Lima,TAM Brazilian Airlines,Boeing 767-300,148
+JFK,3797,MSY,3861,New York,New Orleans,Japan Airlines,Embraer 190,0
+JFK,3797,NRT,2279,New York,Tokyo,Japan Airlines,Boeing 787-8,231
+JFK,3797,NRT,2279,New York,Tokyo,Japan Airlines,Boeing 777-300,350
+JFK,3797,ICN,3930,New York,Seoul,Korean Air,Boeing 777-300ER,396
+JFK,3797,ICN,3930,New York,Seoul,Korean Air,Airbus A380-800,520
+JFK,3797,AMS,580,New York,Amsterdam,KLM Royal Dutch Airlines,Airbus A330,0
+JFK,3797,AMS,580,New York,Amsterdam,KLM Royal Dutch Airlines,Boeing 777,388
+JFK,3797,AMS,580,New York,Amsterdam,KLM Royal Dutch Airlines,Boeing 747,660
+JFK,3797,ATL,3682,New York,Atlanta,KLM Royal Dutch Airlines,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,KLM Royal Dutch Airlines,Boeing 737-800,160
+JFK,3797,ATL,3682,New York,Atlanta,KLM Royal Dutch Airlines,Boeing 757-200,162
+JFK,3797,ATL,3682,New York,Atlanta,KLM Royal Dutch Airlines,McDonnell Douglas MD-88,149
+JFK,3797,BCN,1218,New York,Barcelona,KLM Royal Dutch Airlines,Airbus A330,0
+JFK,3797,DUB,599,New York,Dublin,KLM Royal Dutch Airlines,Boeing 757,0
+JFK,3797,LHR,507,New York,London,KLM Royal Dutch Airlines,Boeing 767,375
+JFK,3797,MAD,1229,New York,Madrid,KLM Royal Dutch Airlines,Boeing 767,375
+JFK,3797,MSY,3861,New York,New Orleans,KLM Royal Dutch Airlines,Canadair Regional Jet 900,0
+LGA,3697,ATL,3682,New York,Atlanta,KLM Royal Dutch Airlines,Boeing 757,0
+LGA,3697,ATL,3682,New York,Atlanta,KLM Royal Dutch Airlines,McDonnell Douglas MD-88,149
+JFK,3797,KWI,2176,New York,Kuwait,Kuwait Airways,Boeing 777,388
+JFK,3797,LHR,507,New York,London,Kuwait Airways,Boeing 777,388
+JFK,3797,GCM,1926,New York,Georgetown,Cayman Airways,Boeing 737-300,149
+JFK,3797,LIM,2789,New York,Lima,LAN Airlines,Boeing 767-300,148
+JFK,3797,SCL,2650,New York,Santiago,LAN Airlines,Boeing 787,0
+JFK,3797,BRU,302,New York,Brussels,Lufthansa,Airbus A330-300,293
+JFK,3797,FRA,340,New York,Frankfurt,Lufthansa,Airbus A380-800,520
+JFK,3797,FRA,340,New York,Frankfurt,Lufthansa,Boeing 747-400,366
+JFK,3797,MSY,3861,New York,New Orleans,Lufthansa,Embraer 190,0
+JFK,3797,MUC,346,New York,Munich,Lufthansa,Airbus A330-300,293
+JFK,3797,WAW,679,New York,Warsaw,LOT Polish Airlines,Boeing 787-8,231
+JFK,3797,GVA,1665,New York,Geneva,Swiss International Air Lines,Airbus A330-300,293
+JFK,3797,ZRH,1678,New York,Zurich,Swiss International Air Lines,Airbus A330-300,293
+JFK,3797,TLV,1590,New York,Tel-aviv,El Al Israel Airlines,Boeing 747-400,366
+JFK,3797,LHR,507,New York,London,Malaysia Airlines,Boeing 777,388
+JFK,3797,CAI,1128,New York,Cairo,Egyptair,Boeing 777-300,350
+JFK,3797,PVG,3406,New York,Shanghai,China Eastern Airlines,Airbus A340-600,475
+JFK,3797,NRT,2279,New York,Tokyo,All Nippon Airways,Boeing 777-300ER,396
+LGA,3697,DFW,3670,New York,Dallas-Fort Worth,Spirit Airlines,Airbus A319,132
+LGA,3697,DTW,3645,New York,Detroit,Spirit Airlines,Airbus A320,158
+LGA,3697,FLL,3533,New York,Fort Lauderdale,Spirit Airlines,Airbus A321,192
+LGA,3697,FLL,3533,New York,Fort Lauderdale,Spirit Airlines,Airbus A320,158
+LGA,3697,MYR,3515,New York,Myrtle Beach,Spirit Airlines,Airbus A320,158
+LGA,3697,ORD,3830,New York,Chicago,Spirit Airlines,Airbus A320,158
+JFK,3797,KIN,1779,New York,Kingston,Overland Airways,Boeing 757-200,162
+JFK,3797,VIE,1613,New York,Vienna,Austrian Airlines,Boeing 777-200,308
+JFK,3797,ICN,3930,New York,Seoul,Asiana Airlines,Boeing 777-300ER,396
+JFK,3797,LHE,2207,New York,Lahore,Pakistan International Airlines,Boeing 777,388
+JFK,3797,KBP,2939,New York,Kiev,Ukraine International Airlines,Boeing 767,375
+JFK,3797,LAX,3484,New York,Los Angeles,Qantas,Boeing 747-400,366
+JFK,3797,BCN,1218,New York,Barcelona,Qatar Airways,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,Qatar Airways,Boeing 757,0
+JFK,3797,DOH,11051,New York,Doha,Qatar Airways,Boeing 777-300ER,396
+JFK,3797,LAS,3877,New York,Las Vegas,Qatar Airways,Boeing 737-800,160
+JFK,3797,MSY,3861,New York,New Orleans,Qatar Airways,Embraer 190,0
+JFK,3797,MXP,1524,New York,Milano,Qatar Airways,Boeing 767-300,148
+JFK,3797,ORD,3830,New York,Chicago,Qatar Airways,Boeing 737-800,160
+JFK,3797,SAN,3731,New York,San Diego,Qatar Airways,Boeing 737-800,160
+JFK,3797,AMM,2170,New York,Amman,Royal Jordanian,Airbus A340,0
+JFK,3797,AMM,2170,New York,Amman,Royal Jordanian,Airbus A330,0
+JFK,3797,JNB,813,New York,Johannesburg,South African Airways,Airbus A340-600,475
+JFK,3797,CDG,1382,New York,Paris,XL Airways France,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,XL Airways France,Airbus A330-200,234
+JFK,3797,BRU,302,New York,Brussels,Brussels Airlines,Airbus A330-300,293
+JFK,3797,FRA,340,New York,Frankfurt,Singapore Airlines,Airbus A380-800,520
+JFK,3797,ATL,3682,New York,Atlanta,Aeroflot Russian Airlines,Boeing 757-200,162
+JFK,3797,ATL,3682,New York,Atlanta,Aeroflot Russian Airlines,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,Aeroflot Russian Airlines,Boeing 737-800,160
+JFK,3797,ATL,3682,New York,Atlanta,Aeroflot Russian Airlines,Boeing 757,0
+JFK,3797,ATL,3682,New York,Atlanta,Aeroflot Russian Airlines,McDonnell Douglas MD-88,149
+JFK,3797,SVO,2985,New York,Moscow,Aeroflot Russian Airlines,Airbus A330-300,293
+JFK,3797,SVO,2985,New York,Moscow,Aeroflot Russian Airlines,Boeing 777-300ER,396
+JFK,3797,JED,2072,New York,Jeddah,Saudi Arabian Airlines,Boeing 777,388
+JFK,3797,RUH,2082,New York,Riyadh,Saudi Arabian Airlines,Boeing 777,388
+JFK,3797,MSP,3858,New York,Minneapolis,Sun Country Airlines,Boeing 737-700,124
+JFK,3797,MSP,3858,New York,Minneapolis,Sun Country Airlines,Boeing 737-800,160
+JFK,3797,IST,1701,New York,Istanbul,Turkish Airlines,Airbus A330,0
+JFK,3797,IST,1701,New York,Istanbul,Turkish Airlines,Boeing 777-300ER,396
+JFK,3797,BOG,2709,New York,Bogota,United Airlines,Airbus A330,0
+JFK,3797,BRU,302,New York,Brussels,United Airlines,Airbus A330-300,293
+JFK,3797,CAI,1128,New York,Cairo,United Airlines,Boeing 777-300,350
+JFK,3797,DUB,599,New York,Dublin,United Airlines,Airbus A330,0
+JFK,3797,FRA,340,New York,Frankfurt,United Airlines,Airbus A380-800,520
+JFK,3797,FRA,340,New York,Frankfurt,United Airlines,Boeing 747-400,366
+JFK,3797,GVA,1665,New York,Geneva,United Airlines,Airbus A330-300,293
+JFK,3797,ICN,3930,New York,Seoul,United Airlines,Boeing 777-300ER,396
+JFK,3797,JNB,813,New York,Johannesburg,United Airlines,Airbus A340-600,475
+JFK,3797,LAX,3484,New York,Los Angeles,United Airlines,Boeing 757,0
+JFK,3797,MUC,346,New York,Munich,United Airlines,Airbus A330-300,293
+JFK,3797,NRT,2279,New York,Tokyo,United Airlines,Boeing 777-300ER,396
+JFK,3797,PEK,3364,New York,Beijing,United Airlines,Boeing 777-300,350
+JFK,3797,PTY,1871,New York,Panama City,United Airlines,Boeing 737-800,160
+JFK,3797,SAL,1892,New York,San Salvador,United Airlines,Airbus A320,158
+JFK,3797,SFO,3469,New York,San Francisco,United Airlines,Boeing 757,0
+JFK,3797,VIE,1613,New York,Vienna,United Airlines,Boeing 777-200,308
+JFK,3797,ZRH,1678,New York,Zurich,United Airlines,Airbus A330-300,293
+LGA,3697,CLE,3486,New York,Cleveland,United Airlines,Embraer 170,0
+LGA,3697,DEN,3751,New York,Denver,United Airlines,Boeing 757-200,162
+LGA,3697,DEN,3751,New York,Denver,United Airlines,Airbus A320,158
+LGA,3697,DEN,3751,New York,Denver,United Airlines,Boeing 737-800,160
+LGA,3697,IAD,3714,New York,Washington,United Airlines,Embraer 170,0
+LGA,3697,IAD,3714,New York,Washington,United Airlines,Canadair Regional Jet 700,0
+LGA,3697,IAH,3550,New York,Houston,United Airlines,Boeing 737-800,160
+LGA,3697,IAH,3550,New York,Houston,United Airlines,Airbus A320,158
+LGA,3697,IAH,3550,New York,Houston,United Airlines,Boeing 737-700,124
+LGA,3697,IAH,3550,New York,Houston,United Airlines,Airbus A319,132
+LGA,3697,ORD,3830,New York,Chicago,United Airlines,Airbus A319,132
+LGA,3697,ORD,3830,New York,Chicago,United Airlines,Airbus A320,158
+LGA,3697,ORD,3830,New York,Chicago,United Airlines,Boeing 737-800,160
+LGA,3697,ORD,3830,New York,Chicago,United Airlines,Boeing 737-700,124
+LGA,3697,ORD,3830,New York,Chicago,United Airlines,Boeing 757-200,162
+LGA,3697,YUL,146,New York,Montreal,United Airlines,Embraer 175,0
+LGA,3697,YYZ,193,New York,Toronto,United Airlines,Embraer 190,0
+LGA,3697,YYZ,193,New York,Toronto,United Airlines,Embraer 175,0
+JFK,3797,VKO,2988,New York,Moscow,Transaero Airlines,Boeing 777,388
+JFK,3797,AMM,2170,New York,Amman,US Airways,Airbus A340,0
+JFK,3797,AMM,2170,New York,Amman,US Airways,Airbus A330,0
+JFK,3797,ANU,2874,New York,Antigua,US Airways,Boeing 737-800,160
+JFK,3797,AUS,3673,New York,Austin,US Airways,Boeing 737-800,160
+JFK,3797,BCN,1218,New York,Barcelona,US Airways,Boeing 767-300,148
+JFK,3797,BDA,4069,New York,Bermuda,US Airways,Boeing 737-800,160
+JFK,3797,BNA,3690,New York,Nashville,US Airways,Embraer RJ145,0
+JFK,3797,BOG,2709,New York,Bogota,US Airways,Airbus A319,132
+JFK,3797,BOS,3448,New York,Boston,US Airways,Boeing 737-800,160
+JFK,3797,BWI,3849,New York,Baltimore,US Airways,Embraer RJ145,0
+JFK,3797,CDG,1382,New York,Paris,US Airways,Boeing 767-300,148
+JFK,3797,CDG,1382,New York,Paris,US Airways,Boeing 757,0
+JFK,3797,CLE,3486,New York,Cleveland,US Airways,Embraer RJ145,0
+JFK,3797,CLT,3876,New York,Charlotte,US Airways,Airbus A321,192
+JFK,3797,CLT,3876,New York,Charlotte,US Airways,Airbus A319,132
+JFK,3797,CMH,3759,New York,Columbus,US Airways,Canadair Regional Jet 700,0
+JFK,3797,CUN,1852,New York,Cancun,US Airways,Boeing 737-800,160
+JFK,3797,CVG,3488,New York,Cincinnati,US Airways,Embraer RJ145,0
+JFK,3797,DCA,3520,New York,Washington,US Airways,Boeing 737-800,160
+JFK,3797,DFW,3670,New York,Dallas-Fort Worth,US Airways,Boeing 737-800,160
+JFK,3797,DFW,3670,New York,Dallas-Fort Worth,US Airways,Boeing 757,0
+JFK,3797,DUB,599,New York,Dublin,US Airways,Boeing 757,0
+JFK,3797,FCO,1555,New York,Rome,US Airways,Boeing 767-300,148
+JFK,3797,FRA,340,New York,Frankfurt,US Airways,Airbus A380-800,520
+JFK,3797,GIG,2560,New York,Rio De Janeiro,US Airways,Boeing 767-300,148
+JFK,3797,GRU,2564,New York,Sao Paulo,US Airways,Boeing 777-300ER,396
+JFK,3797,GRU,2564,New York,Sao Paulo,US Airways,Boeing 777,388
+JFK,3797,IND,3585,New York,Indianapolis,US Airways,Embraer RJ145,0
+JFK,3797,IST,1701,New York,Istanbul,US Airways,Airbus A330,0
+JFK,3797,IST,1701,New York,Istanbul,US Airways,Boeing 777-300ER,396
+JFK,3797,JNB,813,New York,Johannesburg,US Airways,Airbus A340-600,475
+JFK,3797,LAS,3877,New York,Las Vegas,US Airways,Boeing 737-800,160
+JFK,3797,LAX,3484,New York,Los Angeles,US Airways,Boeing 767-200,290
+JFK,3797,LHR,507,New York,London,US Airways,Boeing 777-300ER,396
+JFK,3797,MAD,1229,New York,Madrid,US Airways,Boeing 757,0
+JFK,3797,MAN,478,New York,Manchester,US Airways,Boeing 757,0
+JFK,3797,MCO,3878,New York,Orlando,US Airways,Boeing 767-300,148
+JFK,3797,MCO,3878,New York,Orlando,US Airways,Boeing 757,0
+JFK,3797,MDE,2745,New York,Rio Negro,US Airways,Airbus A319,132
+JFK,3797,MIA,3576,New York,Miami,US Airways,Boeing 757,0
+JFK,3797,MIA,3576,New York,Miami,US Airways,Boeing 737-800,160
+JFK,3797,MXP,1524,New York,Milano,US Airways,Boeing 767-300,148
+JFK,3797,ORD,3830,New York,Chicago,US Airways,Boeing 737-800,160
+JFK,3797,ORF,3611,New York,Norfolk,US Airways,Embraer RJ145,0
+JFK,3797,PEK,3364,New York,Beijing,US Airways,Boeing 777-300,350
+JFK,3797,PHX,3462,New York,Phoenix,US Airways,Airbus A321,192
+JFK,3797,PIT,3570,New York,Pittsburgh,US Airways,Embraer RJ145,0
+JFK,3797,RDU,3626,New York,Raleigh-durham,US Airways,Embraer RJ140,0
+JFK,3797,RDU,3626,New York,Raleigh-durham,US Airways,Canadair Regional Jet 700,0
+JFK,3797,SAL,1892,New York,San Salvador,US Airways,Airbus A320,158
+JFK,3797,SAN,3731,New York,San Diego,US Airways,Boeing 737-800,160
+JFK,3797,SEA,3577,New York,Seattle,US Airways,Boeing 737-800,160
+JFK,3797,SFO,3469,New York,San Francisco,US Airways,Boeing 767-300,148
+JFK,3797,SJO,1885,New York,San Jose,US Airways,Boeing 737-800,160
+JFK,3797,SJU,2890,New York,San Juan,US Airways,Boeing 757,0
+JFK,3797,STT,2883,New York,St. Thomas,US Airways,Boeing 757,0
+JFK,3797,SXM,2899,New York,Philipsburg,US Airways,Boeing 757,0
+JFK,3797,TPA,3646,New York,Tampa,US Airways,Canadair Regional Jet 700,0
+JFK,3797,YUL,146,New York,Montreal,US Airways,Embraer RJ140,0
+JFK,3797,YYZ,193,New York,Toronto,US Airways,Canadair Regional Jet 700,0
+JFK,3797,ZRH,1678,New York,Zurich,US Airways,Boeing 767-300,148
+LGA,3697,BNA,3690,New York,Nashville,US Airways,Canadair Regional Jet 700,0
+LGA,3697,BOS,3448,New York,Boston,US Airways,Airbus A319,132
+LGA,3697,BOS,3448,New York,Boston,US Airways,Embraer 190,0
+LGA,3697,CHO,4015,New York,Charlottesville VA,US Airways,Embraer RJ140,0
+LGA,3697,CLT,3876,New York,Charlotte,US Airways,Airbus A321,192
+LGA,3697,CLT,3876,New York,Charlotte,US Airways,Airbus A319,132
+LGA,3697,CLT,3876,New York,Charlotte,US Airways,Airbus A320,158
+LGA,3697,CMH,3759,New York,Columbus,US Airways,Canadair Regional Jet 700,0
+LGA,3697,CMH,3759,New York,Columbus,US Airways,Embraer RJ140,0
+LGA,3697,DAY,3627,New York,Dayton,US Airways,Embraer RJ140,0
+LGA,3697,DCA,3520,New York,Washington,US Airways,Airbus A319,132
+LGA,3697,DCA,3520,New York,Washington,US Airways,Embraer 190,0
+LGA,3697,DFW,3670,New York,Dallas-Fort Worth,US Airways,Boeing 737-800,160
+LGA,3697,DTW,3645,New York,Detroit,US Airways,Canadair Regional Jet 700,0
+LGA,3697,GSO,4008,New York,Greensboro,US Airways,Embraer RJ140,0
+LGA,3697,ILM,3845,New York,Wilmington,US Airways,Embraer RJ140,0
+LGA,3697,LIT,3660,New York,Little Rock,US Airways,Canadair Regional Jet 700,0
+LGA,3697,MIA,3576,New York,Miami,US Airways,Boeing 737-800,160
+LGA,3697,ORD,3830,New York,Chicago,US Airways,Boeing 737-800,160
+LGA,3697,ORF,3611,New York,Norfolk,US Airways,Embraer RJ140,0
+LGA,3697,PBI,3722,New York,West Palm Beach,US Airways,Boeing 737-800,160
+LGA,3697,PHL,3752,New York,Philadelphia,US Airways,Embraer 190,0
+LGA,3697,PHL,3752,New York,Philadelphia,US Airways,Airbus A319,132
+LGA,3697,PIT,3570,New York,Pittsburgh,US Airways,Embraer 175,0
+LGA,3697,RDU,3626,New York,Raleigh-durham,US Airways,Embraer RJ140,0
+LGA,3697,RDU,3626,New York,Raleigh-durham,US Airways,Canadair Regional Jet 700,0
+LGA,3697,RIC,3608,New York,Richmond,US Airways,Embraer RJ140,0
+LGA,3697,ROA,4016,New York,Roanoke VA,US Airways,Embraer RJ140,0
+LGA,3697,SDF,4014,New York,Louisville,US Airways,Embraer RJ140,0
+LGA,3697,STL,3678,New York,St. Louis,US Airways,Canadair Regional Jet 700,0
+LGA,3697,TYS,3676,New York,Knoxville,US Airways,Embraer RJ140,0
+LGA,3697,XNA,4356,New York,Bentonville,US Airways,Canadair Regional Jet 700,0
+LGA,3697,YUL,146,New York,Montreal,US Airways,Embraer RJ140,0
+LGA,3697,YYZ,193,New York,Toronto,US Airways,Canadair Regional Jet 700,0
+JFK,3797,MAD,1229,New York,Madrid,Air Europa,Airbus A330-200,234
+JFK,3797,ATL,3682,New York,Atlanta,Virgin Atlantic Airways,Boeing 757-200,162
+JFK,3797,ATL,3682,New York,Atlanta,Virgin Atlantic Airways,Airbus A319,132
+JFK,3797,ATL,3682,New York,Atlanta,Virgin Atlantic Airways,Boeing 737-800,160
+JFK,3797,ATL,3682,New York,Atlanta,Virgin Atlantic Airways,Boeing 757,0
+JFK,3797,ATL,3682,New York,Atlanta,Virgin Atlantic Airways,McDonnell Douglas MD-88,149
+JFK,3797,LHR,507,New York,London,Virgin Atlantic Airways,Airbus A330-300,293
+JFK,3797,LHR,507,New York,London,Virgin Atlantic Airways,Airbus A340-600,475
+JFK,3797,LHR,507,New York,London,Virgin Atlantic Airways,Boeing 747-400,366
+JFK,3797,MSY,3861,New York,New Orleans,Virgin Atlantic Airways,Canadair Regional Jet 900,0
+JFK,3797,LAS,3877,New York,Las Vegas,Virgin America,Airbus A320,158
+JFK,3797,LAX,3484,New York,Los Angeles,Virgin America,Airbus A320,158
+JFK,3797,SFO,3469,New York,San Francisco,Virgin America,Airbus A320,158
+JFK,3797,LOS,273,New York,Lagos,World Scale Airlines,Airbus A340-500,0
+JFK,3797,YYC,178,New York,Calgary,WestJet,Boeing 737-600,113
+JFK,3797,YYZ,193,New York,Toronto,WestJet,Canadair Regional Jet 700,0
+LGA,3697,ATL,3682,New York,Atlanta,WestJet,McDonnell Douglas MD-88,149
+LGA,3697,ATL,3682,New York,Atlanta,WestJet,Boeing 757,0
+LGA,3697,ATL,3682,New York,Atlanta,WestJet,Airbus A320,158
+LGA,3697,ATL,3682,New York,Atlanta,WestJet,Boeing 737-800,160
+LGA,3697,ATL,3682,New York,Atlanta,WestJet,Boeing 737-900,175
+LGA,3697,MSY,3861,New York,New Orleans,WestJet,Airbus A319,132
+LGA,3697,MSY,3861,New York,New Orleans,WestJet,Canadair Regional Jet 900,0
+LGA,3697,YHZ,73,New York,Halifax,WestJet,Canadair Regional Jet 700,0
+LGA,3697,YUL,146,New York,Montreal,WestJet,Canadair Regional Jet 700,0
+LGA,3697,YYZ,193,New York,Toronto,WestJet,Boeing 737-600,113
+JFK,3797,GYE,2673,New York,Guayaquil,Aerolane,Boeing 767-300,148
+CLT,3876,SFO,3469,Charlotte,San Francisco,American Airlines,Airbus A321,192
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,American Airlines,Boeing 737-800,160
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,American Airlines,Boeing 757,0
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,American Airlines,Boeing 767-300,148
+HKG,3077,SFO,3469,Hong Kong,San Francisco,American Airlines,Boeing 777-300,350
+HKG,3077,SFO,3469,Hong Kong,San Francisco,American Airlines,Boeing 747-400,366
+HND,2359,SFO,3469,Tokyo,San Francisco,American Airlines,Boeing 787,0
+LAX,3484,SFO,3469,Los Angeles,San Francisco,American Airlines,Boeing 737-800,160
+LHR,507,SFO,3469,London,San Francisco,American Airlines,Boeing 747-400,366
+MIA,3576,SFO,3469,Miami,San Francisco,American Airlines,Boeing 767-300,148
+MIA,3576,SFO,3469,Miami,San Francisco,American Airlines,Boeing 757,0
+MIA,3576,SFO,3469,Miami,San Francisco,American Airlines,Boeing 737-800,160
+ORD,3830,SFO,3469,Chicago,San Francisco,American Airlines,Boeing 737-800,160
+PDX,3720,SFO,3469,Portland,San Francisco,American Airlines,De Havilland Canada DHC-8-400 Dash 8Q,0
+PDX,3720,SFO,3469,Portland,San Francisco,American Airlines,Boeing 737,0
+PHL,3752,SFO,3469,Philadelphia,San Francisco,American Airlines,Airbus A320,158
+PHL,3752,SFO,3469,Philadelphia,San Francisco,American Airlines,Airbus A321,192
+PHX,3462,SFO,3469,Phoenix,San Francisco,American Airlines,Airbus A320,158
+PHX,3462,SFO,3469,Phoenix,San Francisco,American Airlines,Airbus A321,192
+SEA,3577,SFO,3469,Seattle,San Francisco,American Airlines,Boeing 737,0
+YUL,146,SFO,3469,Montreal,San Francisco,Air Canada,Airbus A319,132
+YVR,156,SFO,3469,Vancouver,San Francisco,Air Canada,Embraer 190,0
+YVR,156,SFO,3469,Vancouver,San Francisco,Air Canada,Airbus A320,158
+YVR,156,SFO,3469,Vancouver,San Francisco,Air Canada,Airbus A319,132
+YYC,178,SFO,3469,Calgary,San Francisco,Air Canada,Canadair Regional Jet 700,0
+YYZ,193,SFO,3469,Toronto,San Francisco,Air Canada,Airbus A320,158
+ATL,3682,SFO,3469,Atlanta,San Francisco,Air France,Boeing 767-300,148
+ATL,3682,SFO,3469,Atlanta,San Francisco,Air France,Boeing 737-900,175
+ATL,3682,SFO,3469,Atlanta,San Francisco,Air France,Boeing 757,0
+CDG,1382,SFO,3469,Paris,San Francisco,Air France,Airbus A380-800,520
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Air France,Boeing 757-300,232
+HKG,3077,SFO,3469,Hong Kong,San Francisco,Air India Limited,Boeing 777-300ER,396
+ICN,3930,SFO,3469,Seoul,San Francisco,Air India Limited,Boeing 777-300ER,396
+MEX,1824,SFO,3469,Mexico City,San Francisco,AeroMÃ©xico,Boeing 737,0
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,Alaska Airlines,Boeing 737-800,160
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,Alaska Airlines,Boeing 757,0
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,Alaska Airlines,Boeing 767-300,148
+LAX,3484,SFO,3469,Los Angeles,San Francisco,Alaska Airlines,Boeing 737-800,160
+MIA,3576,SFO,3469,Miami,San Francisco,Alaska Airlines,Boeing 767-300,148
+MIA,3576,SFO,3469,Miami,San Francisco,Alaska Airlines,Boeing 757,0
+MIA,3576,SFO,3469,Miami,San Francisco,Alaska Airlines,Boeing 737-800,160
+ORD,3830,SFO,3469,Chicago,San Francisco,Alaska Airlines,Boeing 737-800,160
+PDX,3720,SFO,3469,Portland,San Francisco,Alaska Airlines,Boeing 737-400,189
+PDX,3720,SFO,3469,Portland,San Francisco,Alaska Airlines,Boeing 737-700,124
+SEA,3577,SFO,3469,Seattle,San Francisco,Alaska Airlines,Boeing 737-400,189
+SEA,3577,SFO,3469,Seattle,San Francisco,Alaska Airlines,Boeing 737-700,124
+SEA,3577,SFO,3469,Seattle,San Francisco,Alaska Airlines,Boeing 737-900,175
+SAL,1892,SFO,3469,San Salvador,San Francisco,Avianca - Aerovias Nacionales de Colombia,Airbus A319,132
+SAL,1892,SFO,3469,San Salvador,San Francisco,Avianca - Aerovias Nacionales de Colombia,Airbus A320,158
+LHR,507,SFO,3469,London,San Francisco,Finnair,Boeing 747-400,366
+CDG,1382,SFO,3469,Paris,San Francisco,Alitalia,Airbus A380-800,520
+AUS,3673,SFO,3469,Austin,San Francisco,JetBlue Airways,Airbus A320,158
+BOS,3448,SFO,3469,Boston,San Francisco,JetBlue Airways,Airbus A320,158
+DXB,2188,SFO,3469,Dubai,San Francisco,JetBlue Airways,Boeing 777-300ER,396
+FLL,3533,SFO,3469,Fort Lauderdale,San Francisco,JetBlue Airways,Airbus A320,158
+LGB,3582,SFO,3469,Long Beach,San Francisco,JetBlue Airways,Airbus A320,158
+LHR,507,SFO,3469,London,San Francisco,British Airways,Boeing 747-400,366
+TPE,2276,SFO,3469,Taipei,San Francisco,EVA Air,Boeing 777-300ER,396
+PEK,3364,SFO,3469,Beijing,San Francisco,Air China,Boeing 777-300,350
+PVG,3406,SFO,3469,Shanghai,San Francisco,Air China,Boeing 747-400,366
+ATL,3682,SFO,3469,Atlanta,San Francisco,China Airlines,Boeing 737-900,175
+ATL,3682,SFO,3469,Atlanta,San Francisco,China Airlines,Boeing 757,0
+TPE,2276,SFO,3469,Taipei,San Francisco,China Airlines,Boeing 747-400,366
+IAH,3550,SFO,3469,Houston,San Francisco,Copa Airlines,Boeing 787-8,231
+HKG,3077,SFO,3469,Hong Kong,San Francisco,Cathay Pacific,Boeing 777-300ER,396
+HKG,3077,SFO,3469,Hong Kong,San Francisco,Cathay Pacific,Boeing 747-400,366
+AMS,580,SFO,3469,Amsterdam,San Francisco,Delta Air Lines,Boeing 747,660
+ATL,3682,SFO,3469,Atlanta,San Francisco,Delta Air Lines,Boeing 737-900,175
+ATL,3682,SFO,3469,Atlanta,San Francisco,Delta Air Lines,Boeing 757,0
+ATL,3682,SFO,3469,Atlanta,San Francisco,Delta Air Lines,Boeing 767-300,148
+CDG,1382,SFO,3469,Paris,San Francisco,Delta Air Lines,Airbus A380-800,520
+CVG,3488,SFO,3469,Cincinnati,San Francisco,Delta Air Lines,Airbus A320,158
+DTW,3645,SFO,3469,Detroit,San Francisco,Delta Air Lines,Boeing 737-900,175
+DTW,3645,SFO,3469,Detroit,San Francisco,Delta Air Lines,Boeing 767-300,148
+DTW,3645,SFO,3469,Detroit,San Francisco,Delta Air Lines,Boeing 737-800,160
+HNL,3728,SFO,3469,Honolulu,San Francisco,Delta Air Lines,Boeing 757-300,232
+ICN,3930,SFO,3469,Seoul,San Francisco,Delta Air Lines,Boeing 777-300ER,396
+ICN,3930,SFO,3469,Seoul,San Francisco,Delta Air Lines,Boeing 777-200,308
+LAX,3484,SFO,3469,Los Angeles,San Francisco,Delta Air Lines,Embraer 175,0
+LHR,507,SFO,3469,London,San Francisco,Delta Air Lines,Boeing 747-400,366
+MEX,1824,SFO,3469,Mexico City,San Francisco,Delta Air Lines,Boeing 737,0
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Delta Air Lines,Airbus A320,158
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Delta Air Lines,Boeing 757-300,232
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Delta Air Lines,McDonnell Douglas MD-90,158
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Delta Air Lines,Boeing 757,0
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Delta Air Lines,Boeing 737-800,160
+PVG,3406,SFO,3469,Shanghai,San Francisco,Delta Air Lines,Airbus A330-200,234
+SEA,3577,SFO,3469,Seattle,San Francisco,Delta Air Lines,Embraer 175,0
+SEA,3577,SFO,3469,Seattle,San Francisco,Delta Air Lines,Boeing 737-400,189
+SLC,3536,SFO,3469,Salt Lake City,San Francisco,Delta Air Lines,Airbus A320,158
+TPE,2276,SFO,3469,Taipei,San Francisco,Delta Air Lines,Boeing 747-400,366
+DUB,599,SFO,3469,Dublin,San Francisco,Aer Lingus,Airbus A330-200,234
+DXB,2188,SFO,3469,Dubai,San Francisco,Emirates,Boeing 777-300ER,396
+DEN,3751,SFO,3469,Denver,San Francisco,Frontier Airlines,Airbus A320,158
+DEN,3751,SFO,3469,Denver,San Francisco,Frontier Airlines,Airbus A319,132
+ATL,3682,SFO,3469,Atlanta,San Francisco,AirTran Airways,Boeing 737-700,124
+HNL,3728,SFO,3469,Honolulu,San Francisco,Hawaiian Airlines,Airbus A330-200,234
+LAS,3877,SFO,3469,Las Vegas,San Francisco,Hawaiian Airlines,Airbus A320,158
+LHR,507,SFO,3469,London,San Francisco,Iberia Airlines,Boeing 747-400,366
+HND,2359,SFO,3469,Tokyo,San Francisco,Japan Airlines,Boeing 787-8,231
+ICN,3930,SFO,3469,Seoul,San Francisco,Korean Air,Boeing 777-300ER,396
+ICN,3930,SFO,3469,Seoul,San Francisco,Korean Air,Boeing 777-200,308
+AMS,580,SFO,3469,Amsterdam,San Francisco,KLM Royal Dutch Airlines,Boeing 747,660
+ATL,3682,SFO,3469,Atlanta,San Francisco,KLM Royal Dutch Airlines,Boeing 737-900,175
+ATL,3682,SFO,3469,Atlanta,San Francisco,KLM Royal Dutch Airlines,Boeing 767-300,148
+ATL,3682,SFO,3469,Atlanta,San Francisco,KLM Royal Dutch Airlines,Boeing 757,0
+MSP,3858,SFO,3469,Minneapolis,San Francisco,KLM Royal Dutch Airlines,Boeing 757,0
+FRA,340,SFO,3469,Frankfurt,San Francisco,Lufthansa,Boeing 747-400,366
+FRA,340,SFO,3469,Frankfurt,San Francisco,Lufthansa,Airbus A380-800,520
+LHR,507,SFO,3469,London,San Francisco,Lufthansa,Boeing 777,388
+MUC,346,SFO,3469,Munich,San Francisco,Lufthansa,Airbus A340-600,475
+ZRH,1678,SFO,3469,Zurich,San Francisco,Swiss International Air Lines,Airbus A340-300,440
+PVG,3406,SFO,3469,Shanghai,San Francisco,China Eastern Airlines,Airbus A330-200,234
+KIX,3992,SFO,3469,Osaka,San Francisco,All Nippon Airways,Boeing 777,388
+KIX,3992,SFO,3469,Osaka,San Francisco,All Nippon Airways,Boeing 787-8,231
+NRT,2279,SFO,3469,Tokyo,San Francisco,All Nippon Airways,Boeing 777-300ER,396
+ATL,3682,SFO,3469,Atlanta,San Francisco,Air New Zealand,Boeing 737-800,160
+FRA,340,SFO,3469,Frankfurt,San Francisco,Air New Zealand,Boeing 747-400,366
+LHR,507,SFO,3469,London,San Francisco,Air New Zealand,Boeing 777,388
+MEX,1824,SFO,3469,Mexico City,San Francisco,Air New Zealand,Airbus A320,158
+ICN,3930,SFO,3469,Seoul,San Francisco,Asiana Airlines,Boeing 777-200LR,292
+CPH,609,SFO,3469,Copenhagen,San Francisco,Scandinavian Airlines System,Airbus A340-300,440
+HKG,3077,SFO,3469,Hong Kong,San Francisco,Singapore Airlines,Boeing 777-300ER,396
+ICN,3930,SFO,3469,Seoul,San Francisco,Singapore Airlines,Boeing 777-300ER,396
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Sun Country Airlines,Boeing 737-700,124
+MSP,3858,SFO,3469,Minneapolis,San Francisco,Sun Country Airlines,Boeing 737-800,160
+ATL,3682,SFO,3469,Atlanta,San Francisco,United Airlines,Boeing 737-800,160
+AUS,3673,SFO,3469,Austin,San Francisco,United Airlines,Boeing 737-800,160
+AUS,3673,SFO,3469,Austin,San Francisco,United Airlines,Airbus A319,132
+AUS,3673,SFO,3469,Austin,San Francisco,United Airlines,Airbus A320,158
+AUS,3673,SFO,3469,Austin,San Francisco,United Airlines,Boeing 737-900,175
+BOS,3448,SFO,3469,Boston,San Francisco,United Airlines,Boeing 757-200,162
+BOS,3448,SFO,3469,Boston,San Francisco,United Airlines,Boeing 757-300,232
+BOS,3448,SFO,3469,Boston,San Francisco,United Airlines,Boeing 737-900,175
+BOS,3448,SFO,3469,Boston,San Francisco,United Airlines,Boeing 737-800,160
+BOS,3448,SFO,3469,Boston,San Francisco,United Airlines,Boeing 737-700,124
+BUR,3644,SFO,3469,Burbank,San Francisco,United Airlines,Canadair Regional Jet 700,0
+BWI,3849,SFO,3469,Baltimore,San Francisco,United Airlines,Boeing 737-800,160
+BWI,3849,SFO,3469,Baltimore,San Francisco,United Airlines,Boeing 737-900,175
+BWI,3849,SFO,3469,Baltimore,San Francisco,United Airlines,Airbus A319,132
+CDG,1382,SFO,3469,Paris,San Francisco,United Airlines,Boeing 767-300,148
+CLE,3486,SFO,3469,Cleveland,San Francisco,United Airlines,Boeing 737-900,175
+CLE,3486,SFO,3469,Cleveland,San Francisco,United Airlines,Boeing 737-800,160
+CLE,3486,SFO,3469,Cleveland,San Francisco,United Airlines,Airbus A319,132
+CUN,1852,SFO,3469,Cancun,San Francisco,United Airlines,Boeing 737-900,175
+DCA,3520,SFO,3469,Washington,San Francisco,United Airlines,Boeing 737-800,160
+DCA,3520,SFO,3469,Washington,San Francisco,United Airlines,Boeing 737-700,124
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Boeing 757-200,162
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Boeing 737-800,160
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Airbus A320,158
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Boeing 737-900,175
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Boeing 737-700,124
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Airbus A319,132
+DEN,3751,SFO,3469,Denver,San Francisco,United Airlines,Boeing 757-300,232
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,United Airlines,Airbus A319,132
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,United Airlines,Boeing 737-900,175
+FLL,3533,SFO,3469,Fort Lauderdale,San Francisco,United Airlines,Boeing 737-800,160
+FLL,3533,SFO,3469,Fort Lauderdale,San Francisco,United Airlines,Boeing 757-200,162
+FRA,340,SFO,3469,Frankfurt,San Francisco,United Airlines,Boeing 747-400,366
+HKG,3077,SFO,3469,Hong Kong,San Francisco,United Airlines,Boeing 747-400,366
+HNL,3728,SFO,3469,Honolulu,San Francisco,United Airlines,Boeing 767-400,409
+HNL,3728,SFO,3469,Honolulu,San Francisco,United Airlines,Boeing 777,388
+HNL,3728,SFO,3469,Honolulu,San Francisco,United Airlines,Boeing 737-800,160
+HNL,3728,SFO,3469,Honolulu,San Francisco,United Airlines,Boeing 757-300,232
+HNL,3728,SFO,3469,Honolulu,San Francisco,United Airlines,Boeing 737-900,175
+IAD,3714,SFO,3469,Washington,San Francisco,United Airlines,Boeing 757-200,162
+IAD,3714,SFO,3469,Washington,San Francisco,United Airlines,Airbus A320,158
+IAD,3714,SFO,3469,Washington,San Francisco,United Airlines,Boeing 757-300,232
+IAD,3714,SFO,3469,Washington,San Francisco,United Airlines,Boeing 737-800,160
+IAD,3714,SFO,3469,Washington,San Francisco,United Airlines,Boeing 737-900,175
+IAD,3714,SFO,3469,Washington,San Francisco,United Airlines,Airbus A319,132
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Airbus A319,132
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Boeing 737-900,175
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Boeing 737-800,160
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Airbus A320,158
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Boeing 787-8,231
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Boeing 737-700,124
+IAH,3550,SFO,3469,Houston,San Francisco,United Airlines,Boeing 757-200,162
+ICN,3930,SFO,3469,Seoul,San Francisco,United Airlines,Boeing 747-400,366
+IND,3585,SFO,3469,Indianapolis,San Francisco,United Airlines,Airbus A319,132
+KIX,3992,SFO,3469,Osaka,San Francisco,United Airlines,Boeing 777,388
+KIX,3992,SFO,3469,Osaka,San Francisco,United Airlines,Boeing 787-8,231
+LAS,3877,SFO,3469,Las Vegas,San Francisco,United Airlines,Boeing 737-900,175
+LAS,3877,SFO,3469,Las Vegas,San Francisco,United Airlines,Boeing 737-800,160
+LAS,3877,SFO,3469,Las Vegas,San Francisco,United Airlines,Airbus A320,158
+LAS,3877,SFO,3469,Las Vegas,San Francisco,United Airlines,Boeing 757-200,162
+LAS,3877,SFO,3469,Las Vegas,San Francisco,United Airlines,Airbus A319,132
+LAS,3877,SFO,3469,Las Vegas,San Francisco,United Airlines,Boeing 757-300,232
+LAX,3484,SFO,3469,Los Angeles,San Francisco,United Airlines,Boeing 737-900,175
+LAX,3484,SFO,3469,Los Angeles,San Francisco,United Airlines,Boeing 757-200,162
+LAX,3484,SFO,3469,Los Angeles,San Francisco,United Airlines,Boeing 757-300,232
+LAX,3484,SFO,3469,Los Angeles,San Francisco,United Airlines,Airbus A319,132
+LAX,3484,SFO,3469,Los Angeles,San Francisco,United Airlines,Airbus A320,158
+LAX,3484,SFO,3469,Los Angeles,San Francisco,United Airlines,Boeing 737-800,160
+LHR,507,SFO,3469,London,San Francisco,United Airlines,Boeing 777,388
+MCI,3458,SFO,3469,Kansas City,San Francisco,United Airlines,Canadair Regional Jet 700,0
+MCO,3878,SFO,3469,Orlando,San Francisco,United Airlines,Boeing 757-300,232
+MCO,3878,SFO,3469,Orlando,San Francisco,United Airlines,Boeing 757-200,162
+MCO,3878,SFO,3469,Orlando,San Francisco,United Airlines,Boeing 737-800,160
+MCO,3878,SFO,3469,Orlando,San Francisco,United Airlines,Boeing 737-900,175
+MEX,1824,SFO,3469,Mexico City,San Francisco,United Airlines,Airbus A320,158
+MSP,3858,SFO,3469,Minneapolis,San Francisco,United Airlines,Airbus A320,158
+MSP,3858,SFO,3469,Minneapolis,San Francisco,United Airlines,Boeing 737-900,175
+MSP,3858,SFO,3469,Minneapolis,San Francisco,United Airlines,Airbus A319,132
+MSY,3861,SFO,3469,New Orleans,San Francisco,United Airlines,Airbus A320,158
+MSY,3861,SFO,3469,New Orleans,San Francisco,United Airlines,Airbus A319,132
+MSY,3861,SFO,3469,New Orleans,San Francisco,United Airlines,Boeing 737-800,160
+MUC,346,SFO,3469,Munich,San Francisco,United Airlines,Airbus A340-600,475
+NRT,2279,SFO,3469,Tokyo,San Francisco,United Airlines,Boeing 747-400,366
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Boeing 757-200,162
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Boeing 737-900,175
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Airbus A320,158
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Boeing 737-800,160
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Boeing 757-300,232
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Airbus A319,132
+ORD,3830,SFO,3469,Chicago,San Francisco,United Airlines,Boeing 777,388
+PDX,3720,SFO,3469,Portland,San Francisco,United Airlines,Airbus A319,132
+PDX,3720,SFO,3469,Portland,San Francisco,United Airlines,Boeing 737-900,175
+PDX,3720,SFO,3469,Portland,San Francisco,United Airlines,Airbus A320,158
+PEK,3364,SFO,3469,Beijing,San Francisco,United Airlines,Boeing 747-400,366
+PHL,3752,SFO,3469,Philadelphia,San Francisco,United Airlines,Boeing 737-900,175
+PHL,3752,SFO,3469,Philadelphia,San Francisco,United Airlines,Boeing 737-800,160
+PHL,3752,SFO,3469,Philadelphia,San Francisco,United Airlines,Airbus A319,132
+PHL,3752,SFO,3469,Philadelphia,San Francisco,United Airlines,Boeing 757-200,162
+PHX,3462,SFO,3469,Phoenix,San Francisco,United Airlines,Airbus A320,158
+PIT,3570,SFO,3469,Pittsburgh,San Francisco,United Airlines,Airbus A320,158
+PIT,3570,SFO,3469,Pittsburgh,San Francisco,United Airlines,Airbus A319,132
+PIT,3570,SFO,3469,Pittsburgh,San Francisco,United Airlines,Boeing 737-800,160
+PVG,3406,SFO,3469,Shanghai,San Francisco,United Airlines,Boeing 747-400,366
+RDU,3626,SFO,3469,Raleigh-durham,San Francisco,United Airlines,Boeing 737-800,160
+RDU,3626,SFO,3469,Raleigh-durham,San Francisco,United Airlines,Boeing 737-900,175
+SAL,1892,SFO,3469,San Salvador,San Francisco,United Airlines,Airbus A319,132
+SAL,1892,SFO,3469,San Salvador,San Francisco,United Airlines,Airbus A320,158
+SAN,3731,SFO,3469,San Diego,San Francisco,United Airlines,Boeing 737-900,175
+SAN,3731,SFO,3469,San Diego,San Francisco,United Airlines,Boeing 737-800,160
+SAN,3731,SFO,3469,San Diego,San Francisco,United Airlines,Airbus A320,158
+SAN,3731,SFO,3469,San Diego,San Francisco,United Airlines,Airbus A319,132
+SEA,3577,SFO,3469,Seattle,San Francisco,United Airlines,Airbus A319,132
+SEA,3577,SFO,3469,Seattle,San Francisco,United Airlines,Boeing 737-900,175
+SEA,3577,SFO,3469,Seattle,San Francisco,United Airlines,Airbus A320,158
+SEA,3577,SFO,3469,Seattle,San Francisco,United Airlines,Boeing 737-800,160
+SEA,3577,SFO,3469,Seattle,San Francisco,United Airlines,Boeing 757-200,162
+SLC,3536,SFO,3469,Salt Lake City,San Francisco,United Airlines,Boeing 737-800,160
+SLC,3536,SFO,3469,Salt Lake City,San Francisco,United Airlines,Airbus A320,158
+SLC,3536,SFO,3469,Salt Lake City,San Francisco,United Airlines,Airbus A319,132
+SMF,3817,SFO,3469,Sacramento,San Francisco,United Airlines,Embraer EMB 120 Brasilia,0
+STL,3678,SFO,3469,St. Louis,San Francisco,United Airlines,Airbus A320,158
+STL,3678,SFO,3469,St. Louis,San Francisco,United Airlines,Airbus A319,132
+TPE,2276,SFO,3469,Taipei,San Francisco,United Airlines,Boeing 777,388
+YUL,146,SFO,3469,Montreal,San Francisco,United Airlines,Airbus A319,132
+YVR,156,SFO,3469,Vancouver,San Francisco,United Airlines,Airbus A320,158
+YVR,156,SFO,3469,Vancouver,San Francisco,United Airlines,Airbus A319,132
+YVR,156,SFO,3469,Vancouver,San Francisco,United Airlines,Boeing 737-900,175
+YVR,156,SFO,3469,Vancouver,San Francisco,United Airlines,Boeing 737-800,160
+YYC,178,SFO,3469,Calgary,San Francisco,United Airlines,Canadair Regional Jet 700,0
+YYZ,193,SFO,3469,Toronto,San Francisco,United Airlines,Airbus A320,158
+ZRH,1678,SFO,3469,Zurich,San Francisco,United Airlines,Airbus A340-300,440
+LHR,507,SFO,3469,London,San Francisco,Transaero Airlines,Boeing 747-400,366
+CLT,3876,SFO,3469,Charlotte,San Francisco,US Airways,Airbus A321,192
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,US Airways,Boeing 737-800,160
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,US Airways,Boeing 757,0
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,US Airways,Boeing 767-300,148
+HKG,3077,SFO,3469,Hong Kong,San Francisco,US Airways,Boeing 777-300ER,396
+ICN,3930,SFO,3469,Seoul,San Francisco,US Airways,Boeing 777-300ER,396
+LAX,3484,SFO,3469,Los Angeles,San Francisco,US Airways,Boeing 737-800,160
+MIA,3576,SFO,3469,Miami,San Francisco,US Airways,Boeing 767-300,148
+MIA,3576,SFO,3469,Miami,San Francisco,US Airways,Boeing 757,0
+MIA,3576,SFO,3469,Miami,San Francisco,US Airways,Boeing 737-800,160
+ORD,3830,SFO,3469,Chicago,San Francisco,US Airways,Boeing 737-800,160
+PEK,3364,SFO,3469,Beijing,San Francisco,US Airways,Boeing 777-300,350
+PHL,3752,SFO,3469,Philadelphia,San Francisco,US Airways,Airbus A320,158
+PHL,3752,SFO,3469,Philadelphia,San Francisco,US Airways,Airbus A321,192
+PHX,3462,SFO,3469,Phoenix,San Francisco,US Airways,Airbus A320,158
+PHX,3462,SFO,3469,Phoenix,San Francisco,US Airways,Airbus A321,192
+SAL,1892,SFO,3469,San Salvador,San Francisco,US Airways,Airbus A319,132
+SAL,1892,SFO,3469,San Salvador,San Francisco,US Airways,Airbus A320,158
+TPE,2276,SFO,3469,Taipei,San Francisco,US Airways,Boeing 777-300ER,396
+ATL,3682,SFO,3469,Atlanta,San Francisco,Virgin Atlantic Airways,Boeing 767-300,148
+ATL,3682,SFO,3469,Atlanta,San Francisco,Virgin Atlantic Airways,Boeing 737-900,175
+ATL,3682,SFO,3469,Atlanta,San Francisco,Virgin Atlantic Airways,Boeing 757,0
+LHR,507,SFO,3469,London,San Francisco,Virgin Atlantic Airways,Boeing 747-400,366
+AUS,3673,SFO,3469,Austin,San Francisco,Virgin America,Airbus A319,132
+BOS,3448,SFO,3469,Boston,San Francisco,Virgin America,Airbus A320,158
+CUN,1852,SFO,3469,Cancun,San Francisco,Virgin America,Airbus A320,158
+DCA,3520,SFO,3469,Washington,San Francisco,Virgin America,Airbus A320,158
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,Virgin America,Airbus A319,132
+DFW,3670,SFO,3469,Dallas-Fort Worth,San Francisco,Virgin America,Airbus A320,158
+FLL,3533,SFO,3469,Fort Lauderdale,San Francisco,Virgin America,Airbus A320,158
+IAD,3714,SFO,3469,Washington,San Francisco,Virgin America,Airbus A319,132
+IAD,3714,SFO,3469,Washington,San Francisco,Virgin America,Airbus A320,158
+LAS,3877,SFO,3469,Las Vegas,San Francisco,Virgin America,Airbus A320,158
+LAS,3877,SFO,3469,Las Vegas,San Francisco,Virgin America,Airbus A319,132
+LAX,3484,SFO,3469,Los Angeles,San Francisco,Virgin America,Airbus A320,158
+LAX,3484,SFO,3469,Los Angeles,San Francisco,Virgin America,Airbus A319,132
+MCO,3878,SFO,3469,Orlando,San Francisco,Virgin America,Airbus A320,158
+ORD,3830,SFO,3469,Chicago,San Francisco,Virgin America,Airbus A320,158
+PDX,3720,SFO,3469,Portland,San Francisco,Virgin America,Airbus A320,158
+PHL,3752,SFO,3469,Philadelphia,San Francisco,Virgin America,Airbus A319,132
+SAN,3731,SFO,3469,San Diego,San Francisco,Virgin America,Airbus A319,132
+SAN,3731,SFO,3469,San Diego,San Francisco,Virgin America,Airbus A320,158
+SEA,3577,SFO,3469,Seattle,San Francisco,Virgin America,Airbus A319,132
+SEA,3577,SFO,3469,Seattle,San Francisco,Virgin America,Airbus A320,158
+LAS,3877,SFO,3469,Las Vegas,San Francisco,Southwest Airlines,Boeing 737-300,149
+LAX,3484,SFO,3469,Los Angeles,San Francisco,Southwest Airlines,Boeing 737-300,149
+PHX,3462,SFO,3469,Phoenix,San Francisco,Southwest Airlines,Boeing 737-300,149
+SAN,3731,SFO,3469,San Diego,San Francisco,Southwest Airlines,Boeing 737-300,149
