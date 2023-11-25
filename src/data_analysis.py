@@ -100,5 +100,9 @@ final_df = pd.merge(
     how='left')
 final_df.drop('model', axis=1, inplace=True)  # removing the extra 'model' column
 
+# Convert the capacity column to integers
+final_df['capacity'] = final_df['capacity'].fillna(0)
+final_df['capacity'] = final_df['capacity'].astype(int)
+
 # Saving final_df to csv file
 final_df.to_csv('data/final_all_flights.csv', index=False)
