@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 # reading the CSV files
 # some column names had empty spaces in the beginning of the name, "skipinitialspace=True" parameter removes empty spaces.
 routes_data = pd.read_csv('data/routes.csv', encoding='ISO-8859-1', skipinitialspace=True)
@@ -33,7 +32,6 @@ col_names_planes = [
     "ICAO"
 ]
 planes_data = pd.read_csv('data/planes.dat.txt', encoding='ISO-8859-1', names=col_names_planes)
-
 
 # handling missing values
 # replacing '\N' with NaN for consistency
