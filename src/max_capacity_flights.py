@@ -1,6 +1,3 @@
-# NOT FINISHED
-# Waiting on completed capacity information
-
 from data_analysis import *
 
 
