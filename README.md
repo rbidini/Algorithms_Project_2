@@ -23,7 +23,6 @@
 the number of different layouts. If decimal is average, take the floor value)
 
 Using the following website: https://www.seatguru.com/airlines/Delta_Airlines/Delta_Airlines_Airbus_A321.php
-                           : https://www.flugzeuginfo.net/acdata_php/acdata_7472_en.php
 
 - **Airbus A318**: 132 seats
 - **Airbus A319**: 132 seats
