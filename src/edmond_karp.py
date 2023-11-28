@@ -1,4 +1,3 @@
-from adjacency_matrix import adj_matrix
 from breadth_first_search import BFS
 
 
@@ -36,16 +35,6 @@ def EdmondKarp(adj_matrix, source_city, destination_city):
             if adj_matrix.vertex_city[parent_node_index] != source_city:
                 print(adj_matrix.vertex_city[parent_node_index], end=' -> ')
 
-        print(f'{destination_city}\nMaximum capacity: {current_capacity}, Total capacity: {max_capacity}\n')
+        print(f'{destination_city}\nFlight capacity: {current_capacity}, Total capacity: {max_capacity}\n')
 
     return max_capacity
-
-
-source = "New York"
-destination = 'San Francisco'
-
-result = EdmondKarp(adj_matrix, source, destination)
-
-print(result)
-
-

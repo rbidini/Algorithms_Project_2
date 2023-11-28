@@ -2,9 +2,9 @@ import pandas as pd
 
 # reading the CSV files
 # some column names had empty spaces in the beginning of the name, "skipinitialspace=True" parameter removes empty spaces.
-routes_data = pd.read_csv('data/routes.csv', encoding='ISO-8859-1', skipinitialspace=True)
+routes_data = pd.read_csv('data_files/routes.csv', encoding='ISO-8859-1', skipinitialspace=True)
 
-airlines_data = pd.read_csv('data/airlines.csv', encoding='ISO-8859-1', skipinitialspace=True)
+airlines_data = pd.read_csv('data_files/airlines.csv', encoding='ISO-8859-1', skipinitialspace=True)
 
 # assigning column names for airports file because names are not provided in the original file
 col_names_airports = [
@@ -23,15 +23,9 @@ col_names_airports = [
     'Type',
     'Source'
 ]
-airports_data = pd.read_csv('data/airports-extended.csv', encoding='ISO-8859-1', names=col_names_airports)
+airports_data = pd.read_csv('data_files/airports-extended.csv', encoding='ISO-8859-1', names=col_names_airports)
 
-# assigning column names for planes file because names are not provided in the original file
-col_names_planes = [
-    "Plane",
-    "IATA",
-    "ICAO"
-]
-planes_data = pd.read_csv('data/planes.dat.txt', encoding='ISO-8859-1', names=col_names_planes)
+planes_data = pd.read_csv('data_files/passenger_capacities.csv', encoding='utf-8-sig')
 
 # handling missing values
 # replacing '\N' with NaN for consistency
@@ -92,7 +86,7 @@ def print_airports_data():
     "Tz": database time zone Timezone in "tz" (Olson) format, eg. "America/Los_Angeles".
     "Type": Type of the airport. Value "airport" for air terminals, "station" for train stations, "port" for ferry
     terminals and "unknown" if not known.
-    "Source": Source of this data. "OurAirports" for data sourced from OurAirports, "Legacy" for old data not matched to
+    "Source": Source of this data_files. "OurAirports" for data_files sourced from OurAirports, "Legacy" for old data_files not matched to
     OurAirports (mostly DAFIF), "User" for unverified user contributions. In airports.csv, only source=OurAirports
     is included.
     """
@@ -102,8 +96,9 @@ def print_airports_data():
 def print_planes_data():
     """
     COLUMN NAMES:
-    "Plane": plane model
+    "aircraft": plane model
     "IATA",
-    "ICAO"
+    "ICAO",
+    "capacity"
     """
     print(planes_data.to_string())

@@ -1,7 +1,3 @@
-import pandas as pd
-import json
-
-
 class Graph:
     def __init__(self, vertices):
         # Mapping of node names to their indices in the matrix
@@ -23,30 +19,3 @@ class Graph:
         source_idx = self.vertex_index[source]
         destination_idx = self.vertex_index[destination]
         return self.graph[source_idx][destination_idx]
-
-
-flights_data = pd.read_csv('data/final_all_flights.csv', encoding='ISO-8859-1')
-
-cities = pd.concat([flights_data['source city'], flights_data['destination city']]).unique()
-
-adj_matrix = Graph(cities)
-
-for flight in range(len(flights_data)):
-    source = flights_data['source city'][flight]
-    destination = flights_data['destination city'][flight]
-    capacity = flights_data['capacity'][flight]
-
-    adj_matrix.add_edge(source, destination, capacity)
-
-
-converted_matrix = [[[int(weight) for weight in inner_list] for inner_list in row] for row in adj_matrix.graph]
-
-# Save to json file
-with open('data/adjacency_matrix.json', 'w') as file:
-    json.dump(converted_matrix, file)
-
-# print(adj_matrix.graph)
-# print(adj_matrix.vertex_index['San Francisco'])
-# print(adj_matrix.get_edges("New York", 'San Francisco'))
-
-
