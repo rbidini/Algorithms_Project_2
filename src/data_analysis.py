@@ -104,5 +104,6 @@ final_df.drop('model', axis=1, inplace=True)  # removing the extra 'model' colum
 final_df['capacity'] = final_df['capacity'].fillna(0)
 final_df['capacity'] = final_df['capacity'].astype(int)
 
+print(final_df.to_string())
 # Saving final_df to csv file
 final_df.to_csv('data/final_all_flights.csv', index=False)

@@ -6,6 +6,7 @@ class Graph:
     def __init__(self, vertices):
         # Mapping of node names to their indices in the matrix
         self.vertex_index = {node: i for i, node in enumerate(vertices)}
+        self.vertex_city = {i: node for i, node in enumerate(vertices)}
 
         # Initialize the graph as a matrix of empty lists
         n = len(vertices)
@@ -44,7 +45,8 @@ converted_matrix = [[[int(weight) for weight in inner_list] for inner_list in ro
 with open('data/adjacency_matrix.json', 'w') as file:
     json.dump(converted_matrix, file)
 
-# print(flights_data.to_string())
-# print(adjacency_matrix.graph)
-# print(adjacency_matrix.get_edges("San Diego", "San Francisco"))
+# print(adj_matrix.graph)
+# print(adj_matrix.vertex_index['San Francisco'])
+# print(adj_matrix.get_edges("New York", 'San Francisco'))
+
 
