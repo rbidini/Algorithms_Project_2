@@ -34,7 +34,9 @@ def load_matrix(source, destination):
         source = flights_data['source city'][flight]
         destination = flights_data['destination city'][flight]
         capacity = flights_data['capacity'][flight]
+        airline_name = flights_data['airline name'][flight]
+        plane_model = flights_data['plane model'][flight]
 
-        adj_matrix.add_edge(source, destination, capacity)
+        adj_matrix.add_edge(source, destination, capacity, airline_name, plane_model)
 
     return adj_matrix
