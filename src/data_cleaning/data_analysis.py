@@ -73,4 +73,4 @@ merged_data['capacity'] = merged_data['capacity'].fillna(0)
 merged_data['capacity'] = merged_data['capacity'].astype(int)
 
 # Saving final_df to csv file
-merged_data.to_csv('data_files/final_all_flights.csv', index=False)
+merged_data.to_csv('../data_files/final_all_flights.csv', index=False)

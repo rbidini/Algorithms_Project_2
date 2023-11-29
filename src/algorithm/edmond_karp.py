@@ -1,4 +1,4 @@
-from breadth_first_search import BFS
+from src.algorithm.breadth_first_search import BFS
 
 
 def EdmondKarp(adj_matrix, source_city, destination_city):

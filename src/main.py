@@ -1,5 +1,5 @@
-from src.edmond_karp import EdmondKarp
-from src.load_adjacency_matrix import load_matrix
+from algorithm.edmond_karp import EdmondKarp
+from algorithm.load_adjacency_matrix import load_matrix
 
 # source = input("Source city:")
 # destination = input("Destination city:")
