@@ -1,4 +1,4 @@
-﻿aircraft,IATA,ICAO,capacity
+Aircraft,Carrier_IATA,Carrier_ICAO,Passengers
 Aerospatiale (Nord) 262,ND2,N262,29
 Aerospatiale (Sud Aviation) Se.210 Caravelle,CRV,S210,140
 Aerospatiale SN.601 Corvette,NDC,S601,16
@@ -193,55 +193,55 @@ Tupolev Tu-154,TU5,T154,167
 Tupolev Tu-204,T20,T204,210
 Yakovlev Yak-40,YK4,YK40,32
 Yakovlev Yak-42,YK2,YK42,120
-Airbus A330-700 Beluga XL,\N,A337,
-Airbus A330-800neo,338,A338,
-Airbus A340-200,342,A342,
-Airbus A350,350,\N,
-Airbus A350-1000,351,A35K,
-Airbus A380,380,\N,
-Antonov AN-12,ANF,AN12,
-Antonov AN-124 Ruslan,A4F,A124,
-Antonov AN-140,A40,A140,
-Antonov An-148,A81,A148,
-Antonov An-158,A58,A158,
-Antonov An-225 Mriya,A25,A225,
-Antonov AN-24,AN4,AN24,
-Antonov AN-26,A26,AN26,
-Antonov AN-28,A28,AN28,
-Antonov AN-30,A30,AN30,
-Antonov AN-32,A32,AN32,
-Antonov AN-72,AN7,AN72,
-Avro RJ100,AR1,RJ1H,
-Avro RJ70,AR7,RJ70,
-Avro RJ85,AR8,RJ85,
-BAe 146,146,\N,
-BAe 146-100,141,B461,
-BAe 146-200,142,B462,
-BAe 146-300,143,B463,
-Beechcraft 1900,BEH,B190,
-Beechcraft Baron,\N,BE58,
-Beechcraft Baron / 55 Baron,\N,BE55,
-Bell 212,BH2,B212,
-Bombardier 415,\N,CL2T,
-NAMC YS-11,YS1,YS11,
-Partenavia P.68,PN6,P68,
-Pilatus Britten-Norman BN-2A Mk III Trislander,BNT,TRIS,
-Pilatus Britten-Norman BN-2A/B Islander,BNI,BN2P,
-Pilatus PC-12,PL2,PC12,
-Pilatus PC-6 Turbo Porter,PL6,PC6T,
-Piper PA-28 (above 200 hp),\N,P28B,
-Piper PA-28 (up to 180 hp),\N,P28A,
-Piper PA-31 Navajo,PA2,PA31,
-Piper PA-44 Seminole,\N,PA44,
-Piper PA-46,PAG,PA46,
-Saab 2000,S20,SB20,
-Saab SF340A/B,SF3,SF34,
-Shorts SC-5 Belfast,SHB,BELF,
-Shorts SC-7 Skyvan,SHS,SC7,
-Shorts SD.330,SH3,SH33,
-Shorts SD.360,SH6,SH36,
-Sikorsky S-58T,S58,S58T,
-Sikorsky S-61,S61,S61,
-Sikorsky S-76,S76,S76,
-Sikorsky S-92,S92,S92,
-Sukhoi Superjet 100-95,SU9,SU95,
+Airbus A330-700 Beluga XL,\N,A337,880
+Airbus A330-800neo,338,A338,240
+Airbus A340-200,342,A342,230
+Airbus A350,350,\N,325
+Airbus A350-1000,351,A35K,380
+Airbus A380,380,\N,555
+Antonov AN-12,ANF,AN12,100
+Antonov AN-124 Ruslan,A4F,A124,88
+Antonov AN-140,A40,A140,52
+Antonov An-148,A81,A148,76
+Antonov An-158,A58,A158,99
+Antonov An-225 Mriya,A25,A225,444
+Antonov AN-24,AN4,AN24,44
+Antonov AN-26,A26,AN26,40
+Antonov AN-28,A28,AN28,15
+Antonov AN-30,A30,AN30,50
+Antonov AN-32,A32,AN32,50
+Antonov AN-72,AN7,AN72,52
+Avro RJ100,AR1,RJ1H,122
+Avro RJ70,AR7,RJ70,94
+Avro RJ85,AR8,RJ85,112
+BAe 146,146,\N,112
+BAe 146-100,141,B461,84
+BAe 146-200,142,B462,100
+BAe 146-300,143,B463,112
+Beechcraft 1900,BEH,B190,19
+Beechcraft Baron,\N,BE58,5
+Beechcraft Baron / 55 Baron,\N,BE55,4
+Bell 212,BH2,B212,14
+Bombardier 415,\N,CL2T,8
+NAMC YS-11,YS1,YS11,60
+Partenavia P.68,PN6,P68,5
+Pilatus Britten-Norman BN-2A Mk III Trislander,BNT,TRIS,16
+Pilatus Britten-Norman BN-2A/B Islander,BNI,BN2P,9
+Pilatus PC-12,PL2,PC12,8
+Pilatus PC-6 Turbo Porter,PL6,PC6T,10
+Piper PA-28 (above 200 hp),\N,P28B,3
+Piper PA-28 (up to 180 hp),\N,P28A,3
+Piper PA-31 Navajo,PA2,PA31,6
+Piper PA-44 Seminole,\N,PA44,3
+Piper PA-46,PAG,PA46,5
+Saab 2000,S20,SB20,54
+Saab SF340A/B,SF3,SF34,33
+Shorts SC-5 Belfast,SHB,BELF,250
+Shorts SC-7 Skyvan,SHS,SC7,19
+Shorts SD.330,SH3,SH33,30
+Shorts SD.360,SH6,SH36,39
+Sikorsky S-58T,S58,S58T,16
+Sikorsky S-61,S61,S61,30
+Sikorsky S-76,S76,S76,12
+Sikorsky S-92,S92,S92,19
+Sukhoi Superjet 100-95,SU9,SU95,98
