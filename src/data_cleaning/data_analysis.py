@@ -72,5 +72,9 @@ merged_data.drop(drop_columns, axis=1, inplace=True)
 merged_data['capacity'] = merged_data['capacity'].fillna(0)
 merged_data['capacity'] = merged_data['capacity'].astype(int)
 
+# Convert source city and destination city to lowercase
+merged_data['source city'] = merged_data['source city'].str.lower()
+merged_data['destination city'] = merged_data['destination city'].str.lower()
+
 # Saving final_df to csv file
-merged_data.to_csv('../data_files/final_all_flights.csv', index=False)
+merged_data.to_csv('../data_sets/final_all_flights.csv', index=False)

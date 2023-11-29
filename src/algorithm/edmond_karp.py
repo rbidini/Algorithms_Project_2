@@ -15,7 +15,7 @@ def EdmondKarp(adj_matrix, source_city, destination_city):
         current_capacity = float("Inf")
         curr_node_index = destination_idx
 
-        print(source_city, end=' -> ')
+        print(source_city.title(), end=' -> ')
         layover = None
         while curr_node_index != source_idx:
             parent_node_index, edge_id = parent[curr_node_index]
@@ -27,14 +27,14 @@ def EdmondKarp(adj_matrix, source_city, destination_city):
 
             if adj_matrix.vertex_city[parent_node_index] != source_city:
                 layover = adj_matrix.vertex_city[parent_node_index]
-                print(f"{layover} (operated by {airline_name}: {plane_model}, capacity: {capacity})")
+                print(f"{layover.title()} (operated by {airline_name}: {plane_model}, capacity: {capacity})")
 
             curr_node_index = parent_node_index
 
         if layover:
-            print(f'{layover} -> {destination_city} (operated by {airline_name}: {plane_model}, capacity: {capacity})\nMaximum capacity: {current_capacity}\n')
+            print(f'{layover.title()} -> {destination_city.title()} (operated by {airline_name}: {plane_model}, capacity: {capacity})\nMaximum capacity: {current_capacity}\n')
         else:
-            print(f'{destination_city} (operated by {airline_name}: {plane_model})\nFlight capacity: {current_capacity}\n')
+            print(f'{destination_city.title()} (operated by {airline_name}: {plane_model})\nFlight capacity: {current_capacity}\n')
 
         max_capacity += current_capacity
         curr_node_index = destination_idx
@@ -47,4 +47,5 @@ def EdmondKarp(adj_matrix, source_city, destination_city):
             graph[curr_node_index][parent_node_index].append(reverse_edge)
             curr_node_index = parent_node_index
 
-    return f'Total capacity: {max_capacity}'
+    # return f'Total capacity: {max_capacity}'
+    return max_capacity

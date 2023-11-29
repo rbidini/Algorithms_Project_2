@@ -1,14 +1,17 @@
-from algorithm.edmond_karp import EdmondKarp
-from algorithm.load_adjacency_matrix import load_matrix
+from src.algorithm.edmond_karp import EdmondKarp
+from src.algorithm.load_adjacency_matrix import load_matrix
 
-# source = input("Source city:")
-# destination = input("Destination city:")
 
-source = "New York"
-destination = "San Francisco"
+def run_algorithm(source, destination):
+    adj_matrix = load_matrix(source, destination)
 
-adj_matrix = load_matrix(source, destination)
+    return EdmondKarp(adj_matrix, source, destination)
 
-result = EdmondKarp(adj_matrix, source, destination)
 
-print(result)
+# source = input("Source city: ").lower()
+# destination = input("Destination city: ").lower()
+
+source = "New York".lower()
+destination = "San Francisco".lower()
+
+run_algorithm(source, destination)
