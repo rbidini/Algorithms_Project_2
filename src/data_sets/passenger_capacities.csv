@@ -1,4 +1,4 @@
-Aircraft,Carrier_IATA,Carrier_ICAO,Passengers
+aircraft,IATA,,capacity
 Aerospatiale (Nord) 262,ND2,N262,29
 Aerospatiale (Sud Aviation) Se.210 Caravelle,CRV,S210,140
 Aerospatiale SN.601 Corvette,NDC,S601,16
