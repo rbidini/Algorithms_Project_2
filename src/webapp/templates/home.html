@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/index.css">
+    <title>Find Your Flight</title>
+</head>
+<body>
+    <main class="container p-3">
+        <center>
+            <h1 style="color: red; opacity: 0.5; font-size: 40px; font-family: monospace;">LET'S FIND YOUR FLIGHT!</h1>
+            <img src="https://i2.wp.com/www.thebrandonjackson.com/wp-content/uploads/2018/02/Flight_Map_High_Res.jpg" alt="world map" height="220" width="440">
+            <h3 style="color: red; opacity: 0.5; font-size: 27px;">Enter the source and destination city:</h3>
+        </center>
+    </main>
+    <form class="grid" method="POST">
+        <center>
+            <label for="source">Source City:</label>
+            <input type="text" id="source" name="source"><br>
+            <label for="destination">Destination City:</label>
+            <input type="text" id="destination" name="destination"><br>
+            <input class="file_submit" type="Submit">
+        </center>
+
+        <!-- Results Section -->
+        {% if display_results %}
+        <center>
+            <div>
+                {% for data in display_results %}
+                <p>{{ data|safe }}</p>
+                {% endfor %}
+            </div>
+        </center>
+        {% else %}
+        <center><p>No results to display.</p></center>
+        {% endif %}
+    </form>
+</body>
+</html>
+
