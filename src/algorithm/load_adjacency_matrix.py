@@ -7,6 +7,13 @@ from src.algorithm.adjacency_matrix import Graph
 def filter_df(source, destination):
     flights_data = pd.read_csv('../data_sets/final_all_flights.csv', encoding='ISO-8859-1', skipinitialspace=True)
 
+    if source not in list(flights_data["source city"]) and destination not in list(flights_data["destination city"]):
+        return False, "source and destination"
+    elif source not in list(flights_data["source city"]):
+        return False, "source"
+    elif destination not in list(flights_data["destination city"]):
+        return False, "destination"
+
     # Identify flights of interest
     flights = flights_data[(flights_data["source city"] == source) | (flights_data["destination city"] == destination)]
 
@@ -18,12 +25,16 @@ def filter_df(source, destination):
     flights = flights[flights["source city"].isin(destination_cities)]
     flights.reset_index(drop=True, inplace=True)
 
-    return flights
+    return True, flights
 
 
 # Load adjacency matrix with filtered df
 def load_matrix(source, destination):
-    flights_data = filter_df(source, destination)
+    indicator, flights_data = filter_df(source, destination)
+
+    if not indicator:
+        return indicator, flights_data
+
     n = len(flights_data)
 
     cities = pd.concat([flights_data['source city'], flights_data['destination city']]).unique()
@@ -39,4 +50,4 @@ def load_matrix(source, destination):
 
         adj_matrix.add_edge(source, destination, capacity, airline_name, plane_model)
 
-    return adj_matrix
+    return True, adj_matrix

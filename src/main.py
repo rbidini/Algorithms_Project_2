@@ -3,7 +3,10 @@ from src.algorithm.load_adjacency_matrix import load_matrix
 
 
 def run_algorithm(source, destination):
-    adj_matrix = load_matrix(source, destination)
+    indicator, adj_matrix = load_matrix(source, destination)
+
+    if not indicator:
+        return indicator, adj_matrix
 
     return EdmondKarp(adj_matrix, source, destination)
 
@@ -11,9 +14,9 @@ def run_algorithm(source, destination):
 # source = input("Source city: ").lower()
 # destination = input("Destination city: ").lower()
 
-source = "New York".lower()
-destination = "San Francisco".lower()
-
+# source = "moscow"
+# destination = "paris"
+#
 # result, max_capacity = run_algorithm(source, destination)
 # result = sorted(result, key=lambda x: x["maximum capacity"], reverse=True)
 #

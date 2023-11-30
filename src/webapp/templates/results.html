@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../styles/index.css">
+    <title>Flight Results</title>
+    <style>
+        body {
+            background-image: url('https://thumbs.dreamstime.com/b/pastel-blue-sky-light-clouds-vertical-background-161949209.jpg');
+            background-repeat: repeat-y;
+            background-size: cover;
+        }
+        .flight-box {
+            background-color: rgba(255, 255, 255, 0.3); /* White with opacity */
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        .header-image {
+            background-image: url('https://media.cntraveler.com/photos/596cc98bff85a64616487bc4/16:9/w_2560%2Cc_limit/GettyImages-513820322.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: left;
+            padding: 100px 0;
+            color: white;
+            font-size: 34px;
+            font-weight: bold;
+        }
+        .route {
+            font-size: 24px;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            color: black; /* Text color changed to black for visibility */
+        }
+        .route-arrow {
+            border-top: 1px solid #000;
+            flex-grow: 1;
+            margin: 0 10px;
+        }
+        .flight-details, .max-capacity-details {
+            margin: 5px 0;
+            text-align: center;
+            color: black; /* Text color changed to black for visibility */
+        }
+        .direct-route {
+            justify-content: space-between;
+        }
+        .direct-flight-details {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .max-capacity-details {
+            margin: 5px 0;
+            text-align: left;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <main class="container p-3">
+        <h1 class="header-image">
+            Displaying all available flights from {{ source_city }} to {{ destination_city }}
+        </h1>
+        {% for report in display_results %}
+            <div class="flight-box">
+                {% if report.get("layover") %}
+                    <!-- Layover route details -->
+                    <div class="route">
+                        <span>{{ report["source city"] }}</span>
+                        <div class="route-arrow"></div>
+                        <span>{{ report["layover"] }}</span>
+                    </div>
+                    <div class="flight-details">
+                        {{ report["layover airline"] }}: {{ report["layover model"] }}, Capacity: {{ report["layover capacity"] }}
+                    </div>
+                    <div class="route">
+                        <span>{{ report["layover"] }}</span>
+                        <div class="route-arrow"></div>
+                        <span>{{ report["destination city"] }}</span>
+                    </div>
+                    <div class="flight-details">
+                        {{ report["destination airline"] }}: {{ report["destination model"] }}, Capacity: {{ report["destination capacity"] }}
+                    </div>
+                    <div class="max-capacity-details">
+                        Maximum Capacity: {{ report["destination capacity"] }}
+                    </div>
+                {% else %}
+                    <!-- Direct route details -->
+                    <div class="route direct-route">
+                        <span>{{ report["source city"] }}</span>
+                        <div class="route-arrow"></div>
+                        <span>{{ report["destination city"] }}</span>
+                    </div>
+                    <div class="flight-details">
+                        <div>
+                            {{ report["destination airline"] }}: {{ report["destination model"] }}
+                        </div>
+                        <div class="max-capacity-details">
+                            Flight Capacity: {{ report["destination capacity"] }}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </main>
+</body>
+</html>
+

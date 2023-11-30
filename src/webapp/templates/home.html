@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styles/index.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" name="viewport">
     <title>Find Your Flight</title>
+    <script>
+        function validateForm() {
+            var source = document.getElementById('source').value;
+            var destination = document.getElementById('destination').value;
+            if (source == "" || destination == "") {
+                alert("Both 'From' and 'To' fields must be filled out");
+                return false;
+            }
+            return true;
+        }
+    </script>
 </head>
 <body>
-    <main class="container p-3">
-        <center>
-            <h1 style="color: red; opacity: 0.5; font-size: 40px; font-family: monospace;">LET'S FIND YOUR FLIGHT!</h1>
-            <img src="https://i2.wp.com/www.thebrandonjackson.com/wp-content/uploads/2018/02/Flight_Map_High_Res.jpg" alt="world map" height="220" width="440">
-            <h3 style="color: red; opacity: 0.5; font-size: 27px;">Enter the source and destination city:</h3>
-        </center>
-    </main>
-    <form class="grid" method="POST">
-        <center>
-            <label for="source">Source City:</label>
-            <input type="text" id="source" name="source"><br>
-            <label for="destination">Destination City:</label>
-            <input type="text" id="destination" name="destination"><br>
-            <input class="file_submit" type="Submit">
-        </center>
+    <div style="position: relative; color: white;">
+        <!-- Full-width image -->
+        <img src="https://cdn-7.nikon-cdn.com/Images/Learn-Explore/Photography-Techniques/2019/Mandy-Lea-D850/Media/Mandy-Lea-D850-Moraine.jpg" alt="world map" style="width: 100%; height: auto;">
 
-        <!-- Results Section -->
-        {% if display_results %}
-        <center>
-            <div>
-                {% for data in display_results %}
-                <p>{{ data|safe }}</p>
-                {% endfor %}
-            </div>
-        </center>
-        {% else %}
-        <center><p>No results to display.</p></center>
-        {% endif %}
-    </form>
+        <!-- Overlay content with transparent background -->
+        <div style="position: absolute; top: 120px; left: 0; width: 100%; background-color: rgba(255, 255, 255, 0.4); padding: 30px 10px; box-sizing: border-box;">
+            <h1 style="color: white; font-size: 50px; font-family: Monospace; margin: 0;">WHERE TO NEXT?</h1>
+            <h3 style="color: white; font-size: 20px; font-family: Times New Roman; margin: 2;">Enter your flight details:</h3>
+            <form action="/result" method="POST" onsubmit="return validateForm()" style="display: flex; align-items: center;">
+                <input type="text" id="source" name="source" placeholder="From" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
+                <input type="text" id="destination" name="destination" placeholder="To" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
+                <input type="submit" value="Search Flights" style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
+            </form>
+            {% if error_message %}
+                <p style="color: red; background-color: rgba(255, 255, 255, 0.6); padding: 7px; border-radius: 5px; display: inline-block;">{{ error_message }}</p>
+            {% endif %}
+        </div>
+    </div>
 </body>
 </html>
+
 
