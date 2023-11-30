@@ -2,8 +2,18 @@
 <html lang="en">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../styles/index.css">
     <title>Flight Results</title>
+    <script>
+        function validateForm() {
+            var source = document.getElementById('source').value;
+            var destination = document.getElementById('destination').value;
+            if (source == "" || destination == "") {
+                alert("Both 'From' and 'To' fields must be filled out");
+                return false;
+            }
+            return true;
+        }
+    </script>
     <style>
         body {
             background-image: url('https://thumbs.dreamstime.com/b/pastel-blue-sky-light-clouds-vertical-background-161949209.jpg');
@@ -11,27 +21,35 @@
             background-size: cover;
         }
         .flight-box {
-            background-color: rgba(255, 255, 255, 0.3); /* White with opacity */
-            border: 1px solid #ccc;
+            background-color: rgba(255, 255, 255, 0.3);
             padding: 10px;
             margin-bottom: 10px;
+            border: 1px solid white;
         }
         .header-image {
             background-image: url('https://media.cntraveler.com/photos/596cc98bff85a64616487bc4/16:9/w_2560%2Cc_limit/GettyImages-513820322.jpg');
             background-size: cover;
-            background-position: center;
+            background-position: bottom;
+            border: 1px solid white;
+        }
+        .header-text {
             text-align: left;
-            padding: 100px 0;
+            padding: 40px 0;
             color: white;
-            font-size: 34px;
-            font-weight: bold;
+            font-size: 45px;
+            font-family: impact;
+            letter-spacing: normal;
+            transform: scaleY(1.5);
+            margin-top: 60px;
+            margin-bottom: 10px;
+            margin-left: 10px;
         }
         .route {
             font-size: 24px;
             font-weight: bold;
             display: flex;
             align-items: center;
-            color: black; /* Text color changed to black for visibility */
+            color: black;
         }
         .route-arrow {
             border-top: 1px solid #000;
@@ -41,7 +59,7 @@
         .flight-details, .max-capacity-details {
             margin: 5px 0;
             text-align: center;
-            color: black; /* Text color changed to black for visibility */
+            color: black;
         }
         .direct-route {
             justify-content: space-between;
@@ -60,13 +78,26 @@
 </head>
 <body>
     <main class="container p-3">
-        <h1 class="header-image">
-            Displaying all available flights from {{ source_city }} to {{ destination_city }}
-        </h1>
+        <div class="header-image">
+            <h1 class="header-text">
+                Displaying all available flights from {{ source_city }} to {{ destination_city }}
+            </h1>
+            <h3 style="color: white; font-size: 20px; font-family: Times New Roman; margin-top: 5px; margin-bottom: 15px; margin-left: 10px;">Search for more flights:</h3>
+            <div style="text-align: left; margin-top: 5px; margin-bottom: 20px; margin-left: 10px;">
+                <form action="/result" method="POST" onsubmit="return validateForm()" style="display: flex; align-items: center;">
+                    <input type="text" id="source" name="source" placeholder="From" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
+                    <input type="text" id="destination" name="destination" placeholder="To" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
+                    <input type="submit" value="Search Flights" style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
+                </form>
+                {% if error_message %}
+                    <p style="color: red; background-color: rgba(255, 255, 255, 0.6); padding: 7px; border-radius: 5px; display: inline-block;">{{ error_message }}</p>
+                {% endif %}
+            </div>
+        </div>
+        <div style="margin-top: 20px;"></div>
         {% for report in display_results %}
             <div class="flight-box">
                 {% if report.get("layover") %}
-                    <!-- Layover route details -->
                     <div class="route">
                         <span>{{ report["source city"] }}</span>
                         <div class="route-arrow"></div>

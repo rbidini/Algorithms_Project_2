@@ -21,29 +21,17 @@ def result():
         if not result:
             # Handle error messages
             if max_capacity == 'source and destination':
-                error_message = f'"{source}" and "{destination}" are not valid city names. Please enter valid source and destination cities.'
+                error_message = f'Please enter valid source and destination cities. "{source}" and "{destination}" are not valid city names.'
             elif max_capacity == "source":
-                error_message = f'"{source}" is not a valid city name. Please enter a valid source city.'
+                error_message = f'Please enter a valid source city. "{source}" is not a valid city name.'
             elif max_capacity == "destination":
-                error_message = f'"{destination}" is not a valid city name. Please enter a valid destination city.'
+                error_message = f'Please enter a valid destination city. "{destination}" is not a valid city name.'
 
             # Redirect back to the home page with the error message
             return render_template("home.html", error_message=error_message)
 
         display_results = []
         result = sorted(result, key=lambda x: x["maximum capacity"], reverse=True)
-
-        # for report in result:
-        #     if report.get('layover'):
-        #         display_results.append(
-        #             f'{report["source city"]} -> {report["layover"]} (operated by {report["layover airline"]}: {report["layover model"]}) Flight capacity: {report["layover capacity"]}<br>'
-        #             f'{report["layover"]} -> {report["destination city"]} (operated by {report["destination airline"]}: {report["destination model"]}) Flight capacity: {report["destination capacity"]}<br>'
-        #             f'Maximum capacity: {report["maximum capacity"]}<br>')
-        #     else:
-        #         display_results.append(
-        #             f'{report["source city"]} -> {report["destination city"]} (operated by {report["destination airline"]}: {report["destination model"]}) Flight capacity: {report["maximum capacity"]}<br>')
-        #
-        # display_results.append(f'Total capacity: {max_capacity}')
 
         # Render the results page with the display results
         return render_template("results.html", display_results=result, source_city=source.title(), destination_city=destination.title())
