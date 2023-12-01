@@ -17,7 +17,7 @@ planes_data['IATA'] = planes_data['IATA'].astype(str)
 
 # Merge to add the source city name
 merged_data = less_layovers.merge(
-    airports_data[['Airport ID', 'City']],
+    airports_data[['Airport ID', 'City', 'Latitude', 'Longitude']],
     left_on='source airport id',
     right_on='Airport ID',
     how='left'

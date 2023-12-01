@@ -96,6 +96,7 @@
         .max-capacity-container {
             display: flex;
             align-items: center;
+            margin-right: 10px;
         }
         .max-capacity-container label {
             margin-left: 5px;
@@ -131,6 +132,7 @@
         width: 20px;
         height: 20px;
         margin-right: 10px;
+        margin-left: 10px;
         border: 1px solid #000;
         position: relative;
         cursor: pointer;
@@ -146,7 +148,6 @@
     #max-capacity-btn {
         display: none;
     }
-
     #max-capacity-label {
         display: inline-block;
         width: 20px;
@@ -156,7 +157,6 @@
         position: relative;
         cursor: pointer;
     }
-
     #max-capacity-label::after {
         content: '';
         position: absolute;
@@ -166,7 +166,6 @@
         color: black;
         opacity: 0;
     }
-
     #max-capacity-btn:checked + #max-capacity-label::after {
         content: '\2713';
         opacity: 1;
@@ -179,7 +178,7 @@
             <h1 class="header-text">
                 Displaying all available flights from {{ source_city }} to {{ destination_city }}
             </h1>
-            <h3 style="color: white; font-size: 20px; font-family: Times New Roman; margin-top: 5px; margin-bottom: 15px; margin-left: 10px;">Search for more flights:</h3>
+            <h3 style="color: white; font-size: 22px; font-family: Times New Roman; margin-top: 5px; margin-bottom: 15px; margin-left: 10px;">Search for more flights:</h3>
             <div style="text-align: left; margin-top: 5px; margin-bottom: 20px; margin-left: 10px;">
                 <form action="/result" method="POST" onsubmit="return validateForm()" style="display: flex; align-items: center;">
                     <input type="text" id="source" name="source" placeholder="From" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
@@ -193,7 +192,7 @@
         </div>
         <div class="filters-container">
             <div class="filter-options">
-                <div style="font-size: 20px; padding: 10px">Filter by:</div>
+                <div style="font-size: 22px; padding: 10px">Filter by:</div>
                 <div class="flight-filter">
                     <input type="radio" id="filter-all" name="flight-filter" value="all" checked onclick="filterFlights('all')">
                     <label for="filter-all"></label>All Flights
@@ -213,7 +212,7 @@
                 <div>Show Maximum Capacity</div>
             </div>
         </div>
-        <div id="max-capacity" style="display: none; text-align: right; font-size: 22px; margin-bottom: 10px;">
+        <div id="max-capacity" style="display: none; text-align: right; font-size: 22px; margin-bottom: 10px; margin-right: 10px;">
             Total Maximum Capacity: {{ max_capacity }}
         </div>
         {% for report in display_results %}
@@ -239,7 +238,6 @@
                         Maximum Capacity: {{ report["destination capacity"] }}
                     </div>
                 {% else %}
-                    <!-- Direct route details -->
                     <div class="route direct-route">
                         <span>{{ report["source city"] }}</span>
                         <div class="route-arrow"></div>

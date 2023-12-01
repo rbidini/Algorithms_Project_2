@@ -16,7 +16,7 @@ class Graph:
         n = len(vertices)
         self.graph = [[[] for _ in range(n)] for _ in range(n)]
 
-    def add_edge(self, source, destination, capacity, airline_name, plane_model):
+    def add_edge(self, source, destination, capacity, airline_name, plane_model, latitude, longitude):
         """
         Adds an edge to the graph between two nodes with specified attributes.
 
@@ -31,7 +31,7 @@ class Graph:
         # Add an edge with attributes between source and destination nodes
         source_idx = self.vertex_index[source]
         destination_idx = self.vertex_index[destination]
-        weight_info = {'capacity': capacity, 'airline name': airline_name, 'plane model': plane_model}
+        weight_info = {'capacity': capacity, 'airline name': airline_name, 'plane model': plane_model, 'latitude': latitude, 'longitude': longitude}
         self.graph[source_idx][destination_idx].append(weight_info)
 
     def get_edges(self, source, destination):
