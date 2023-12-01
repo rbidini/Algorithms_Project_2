@@ -1,4 +1,5 @@
 from data_import import *
+from src.data_cleaning.calculate_distance import haversine
 
 # Remove inactive airlines
 inactive_indices = airlines_data[airlines_data.Active != 'Y'].index
@@ -75,6 +76,17 @@ merged_data = merged_data.dropna(subset=['plane model', 'capacity', 'source city
 # Convert source city and destination city to lowercase
 merged_data['source city'] = merged_data['source city'].str.lower()
 merged_data['destination city'] = merged_data['destination city'].str.lower()
+
+# Create new distance column between source and destination cities
+merged_data['distance'] = merged_data.apply(
+    lambda row: haversine(
+        row['source latitude'],
+        row['source longitude'],
+        row['destination latitude'],
+        row['destination longitude']
+    ),
+    axis=1
+)
 
 # Saving final_df to csv file
 merged_data.to_csv('../data_sets/final_all_flights.csv', index=False)

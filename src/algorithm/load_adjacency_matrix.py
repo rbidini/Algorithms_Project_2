@@ -78,9 +78,15 @@ class LoadMatrix:
             capacity = flights_data['capacity'][flight]
             airline_name = flights_data['airline name'][flight]
             plane_model = flights_data['plane model'][flight]
-            latitude = flights_data['Latitude'][flight]
-            longitude = flights_data['Longitude'][flight]
+            distance = flights_data['distance'][flight]
 
-            adj_matrix.add_edge(source, destination, capacity, airline_name, plane_model, latitude, longitude)
+            adj_matrix.add_edge(
+                source,
+                destination,
+                capacity,
+                airline_name,
+                plane_model,
+                distance
+            )
 
         return True, adj_matrix

@@ -36,7 +36,7 @@ class MaxCapacity:
             while curr_node_index != source_idx:
                 parent_node_index, edge_id = parent[curr_node_index]
                 current_capacity = min(current_capacity, graph[parent_node_index][curr_node_index][edge_id]['capacity'])
-                capacity, airline_name, plane_model, latitude, longitude = self.extract_flight_info(graph, parent_node_index, curr_node_index, edge_id)
+                capacity, airline_name, plane_model, distance = self.extract_flight_info(graph, parent_node_index, curr_node_index, edge_id)
 
                 if adj_matrix.vertex_city[parent_node_index] != source_city:
                     report.update(self.create_layover_report(adj_matrix,
@@ -44,8 +44,7 @@ class MaxCapacity:
                                                              capacity,
                                                              airline_name,
                                                              plane_model,
-                                                             latitude,
-                                                             longitude))
+                                                             distance))
 
                 curr_node_index = parent_node_index
 
@@ -54,8 +53,7 @@ class MaxCapacity:
                                                          airline_name,
                                                          plane_model,
                                                          current_capacity,
-                                                         latitude,
-                                                         longitude))
+                                                         distance))
             result.append(report)
 
             max_capacity += current_capacity
@@ -71,11 +69,11 @@ class MaxCapacity:
         capacity = graph[parent_node_index][curr_node_index][edge_id]['capacity']
         airline_name = graph[parent_node_index][curr_node_index][edge_id]['airline name']
         plane_model = graph[parent_node_index][curr_node_index][edge_id]['plane model']
-        latitude = graph[parent_node_index][curr_node_index][edge_id]['latitude']
-        longitude = graph[parent_node_index][curr_node_index][edge_id]['longitude']
-        return capacity, airline_name, plane_model, latitude, longitude
+        distance = graph[parent_node_index][curr_node_index][edge_id]['distance']
 
-    def create_layover_report(self, adj_matrix, parent_node_index, capacity, airline_name, plane_model, latitude, longitude):
+        return capacity, airline_name, plane_model, distance
+
+    def create_layover_report(self, adj_matrix, parent_node_index, capacity, airline_name, plane_model, distance):
         """
         Helper method to create a layover report.
         """
@@ -85,11 +83,10 @@ class MaxCapacity:
             'layover airline': airline_name,
             'layover model': plane_model,
             'layover capacity': capacity,
-            'layover latitude': latitude,
-            'layover longitude': longitude
+            'layover distance': distance,
         }
 
-    def create_destination_report(self, destination_city, capacity, airline_name, plane_model, current_capacity, latitude, longitude):
+    def create_destination_report(self, destination_city, capacity, airline_name, plane_model, current_capacity, distance):
         """
         Helper method to create a destination report.
         """
@@ -100,8 +97,7 @@ class MaxCapacity:
             'destination model': plane_model,
             'destination capacity': capacity,
             'maximum capacity': current_capacity,
-            'destination latitude': latitude,
-            'destination longitude': longitude
+            'destination distance': distance,
         }
 
     def update_graph_capacity(self, graph, parent, source_idx, destination_idx, current_capacity):
