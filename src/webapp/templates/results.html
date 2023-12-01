@@ -14,6 +14,37 @@
             return true;
         }
     </script>
+    <script>
+        function filterFlights(filterType) {
+            const allFlights = document.querySelectorAll('.flight-box');
+            allFlights.forEach(function(flight) {
+                const hasLayover = flight.getAttribute('data-layover') === 'yes';
+                if (filterType === 'all' || (filterType === 'layover' && hasLayover) || (filterType === 'direct' && !hasLayover)) {
+                    flight.style.display = ''; // Show flight
+                } else {
+                    flight.style.display = 'none'; // Hide flight
+                }
+            });
+        }
+    </script>
+    <script>
+        document.getElementById('max-capacity-btn').addEventListener('click', function() {
+            var maxCapacityDiv = document.getElementById('max-capacity');
+            if (maxCapacityDiv.style.display === 'none') {
+                maxCapacityDiv.style.display = 'block';
+                this.textContent = 'Hide Max Capacity';
+            } else {
+                maxCapacityDiv.style.display = 'none';
+                this.textContent = 'Show Max Capacity';
+            }
+        });
+    </script>
+    <script>
+        function toggleMaxCapacity() {
+            var maxCapacityDiv = document.getElementById('max-capacity');
+            maxCapacityDiv.style.display = maxCapacityDiv.style.display === 'none' ? 'block' : 'none';
+        }
+    </script>
     <style>
         body {
             background-image: url('https://thumbs.dreamstime.com/b/pastel-blue-sky-light-clouds-vertical-background-161949209.jpg');
@@ -51,6 +82,24 @@
             align-items: center;
             color: black;
         }
+        .filters-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .filter-options {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+        .max-capacity-container {
+            display: flex;
+            align-items: center;
+        }
+        .max-capacity-container label {
+            margin-left: 5px;
+        }
         .route-arrow {
             border-top: 1px solid #000;
             flex-grow: 1;
@@ -74,6 +123,54 @@
             text-align: left;
             color: black;
         }
+        .flight-filter input[type="radio"] {
+        display: none;
+    }
+    .flight-filter label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        border: 1px solid #000;
+        position: relative;
+        cursor: pointer;
+    }
+    .flight-filter input[type="radio"]:checked + label::after {
+        content: '\2713';
+        position: absolute;
+        top: 0;
+        left: 4px;
+        font-size: 18px;
+        color: black;
+    }
+    #max-capacity-btn {
+        display: none;
+    }
+
+    #max-capacity-label {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+        border: 1px solid #000;
+        position: relative;
+        cursor: pointer;
+    }
+
+    #max-capacity-label::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 4px;
+        font-size: 18px;
+        color: black;
+        opacity: 0;
+    }
+
+    #max-capacity-btn:checked + #max-capacity-label::after {
+        content: '\2713';
+        opacity: 1;
+    }
     </style>
 </head>
 <body>
@@ -94,9 +191,33 @@
                 {% endif %}
             </div>
         </div>
-        <div style="margin-top: 20px;"></div>
+        <div class="filters-container">
+            <div class="filter-options">
+                <div style="font-size: 20px; padding: 10px">Filter by:</div>
+                <div class="flight-filter">
+                    <input type="radio" id="filter-all" name="flight-filter" value="all" checked onclick="filterFlights('all')">
+                    <label for="filter-all"></label>All Flights
+                </div>
+                <div class="flight-filter">
+                    <input type="radio" id="filter-direct" name="flight-filter" value="direct" onclick="filterFlights('direct')">
+                    <label for="filter-direct"></label>Direct Flights
+                </div>
+                <div class="flight-filter">
+                    <input type="radio" id="filter-layover" name="flight-filter" value="layover" onclick="filterFlights('layover')">
+                    <label for="filter-layover"></label>Flights with Layovers
+                </div>
+            </div>
+            <div class="max-capacity-container">
+                <input type="checkbox" id="max-capacity-btn" onclick="toggleMaxCapacity()">
+                <label id="max-capacity-label" for="max-capacity-btn"></label>
+                <div>Show Maximum Capacity</div>
+            </div>
+        </div>
+        <div id="max-capacity" style="display: none; text-align: right; font-size: 22px; margin-bottom: 10px;">
+            Total Maximum Capacity: {{ max_capacity }}
+        </div>
         {% for report in display_results %}
-            <div class="flight-box">
+            <div class="flight-box" data-layover="{% if report.get('layover') %}yes{% else %}no{% endif %}">
                 {% if report.get("layover") %}
                     <div class="route">
                         <span>{{ report["source city"] }}</span>
@@ -135,7 +256,13 @@
                 {% endif %}
             </div>
         {% endfor %}
+        <div style="text-align: right; margin-top: 20px;">
+            <a href="/" style="text-decoration: none;">
+                <button style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
+                    Back to Home
+                </button>
+            </a>
+        </div>
     </main>
 </body>
 </html>
-

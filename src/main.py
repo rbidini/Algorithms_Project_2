@@ -1,31 +1,28 @@
-from src.algorithm.edmond_karp import EdmondKarp
-from src.algorithm.load_adjacency_matrix import load_matrix
+from src.algorithm.edmond_karp import MaxCapacity
+from src.algorithm.load_adjacency_matrix import LoadMatrix
 
 
 def run_algorithm(source, destination):
-    indicator, adj_matrix = load_matrix(source, destination)
+    """
+    Runs the algorithm to calculate the maximum capacity between two cities.
 
+    Parameters:
+    source (str): The name of the source city.
+    destination (str): The name of the destination city.
+    """
+
+    # Load the adjacency matrix.
+    load_matrix = LoadMatrix()
+    # Returns a tuple where the first element is a boolean indicating the success of the operation,
+    # and the second element is either the adjacency matrix or string with error information.
+    indicator, result = load_matrix.load(source, destination)
+
+    # Check if the loading of the adjacency matrix was successful
     if not indicator:
-        return indicator, adj_matrix
+        return indicator, result
 
-    return EdmondKarp(adj_matrix, source, destination)
+    main_alg = MaxCapacity()
 
+    # Apply the Edmond-Karp algorithm to find the maximum capacity path within the network.
+    return main_alg.edmond_karp(result, source, destination)
 
-# source = input("Source city: ").lower()
-# destination = input("Destination city: ").lower()
-
-# source = "moscow"
-# destination = "paris"
-#
-# result, max_capacity = run_algorithm(source, destination)
-# result = sorted(result, key=lambda x: x["maximum capacity"], reverse=True)
-#
-# for report in result:
-#     if report.get('layover'):
-#         print(f'{report["source city"]} -> {report["layover"]} (operated by {report["layover airline"]}: {report["layover model"]}) Flight capacity: {report["layover capacity"]}\n'
-#               f'{report["layover"]} -> {report["destination city"]} (operated by {report["destination airline"]}: {report["destination model"]}) Flight capacity: {report["destination capacity"]}\n'
-#               f'Maximum capacity: {report["maximum capacity"]}\n')
-#     else:
-#         print(f'{report["source city"]} -> {report["destination city"]} (operated by {report["destination airline"]}: {report["destination model"]}) Flight capacity: {report["maximum capacity"]}\n')
-#
-# print(f'Total capacity: {max_capacity}')

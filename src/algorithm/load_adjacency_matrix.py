@@ -1,53 +1,84 @@
 import pandas as pd
-
 from src.algorithm.adjacency_matrix import Graph
 
 
-# Filter df based on flights of interest
-def filter_df(source, destination):
-    flights_data = pd.read_csv('../data_sets/final_all_flights.csv', encoding='ISO-8859-1', skipinitialspace=True)
+class LoadMatrix:
+    """
+    This class is designed to prepare the flight data for the algorithm.
+    It includes methods to filter flight data based on source and destination cities,
+    and to load an adjacency matrix representation of the filtered data.
+    """
 
-    if source not in list(flights_data["source city"]) and destination not in list(flights_data["destination city"]):
-        return False, "source and destination"
-    elif source not in list(flights_data["source city"]):
-        return False, "source"
-    elif destination not in list(flights_data["destination city"]):
-        return False, "destination"
+    def filter_df(self, source, destination):
+        """
+        Filters the flights data frame based on the given source and destination cities.
 
-    # Identify flights of interest
-    flights = flights_data[(flights_data["source city"] == source) | (flights_data["destination city"] == destination)]
+        Parameters:
+        source (str): The source city for filtering.
+        destination (str): The destination city for filtering.
 
-    # Keep flights on the condition that the destination city of the source flight is the same as the source city of the destination flight
-    destination_cities = list(flights['destination city'].unique())
-    destination_cities.append(source)
+        Returns:
+        tuple: A tuple containing a boolean and a data frame or a string.
+               The boolean indicates whether the filtering was successful, and the
+               data frame contains the filtered flights data.
+        """
 
-    # Filter rows where source city is in the list of destination cities
-    flights = flights[flights["source city"].isin(destination_cities)]
-    flights.reset_index(drop=True, inplace=True)
+        flights_data = pd.read_csv('../data_sets/final_all_flights.csv', encoding='ISO-8859-1', skipinitialspace=True)
 
-    return True, flights
+        # Check if source and destination are in the data set
+        if source not in list(flights_data["source city"]) and destination not in list(
+                flights_data["destination city"]):
+            return False, "source and destination"
+        elif source not in list(flights_data["source city"]):
+            return False, "source"
+        elif destination not in list(flights_data["destination city"]):
+            return False, "destination"
 
+        # Filter based on source or destination city
+        flights = flights_data[
+            (flights_data["source city"] == source) | (flights_data["destination city"] == destination)]
 
-# Load adjacency matrix with filtered df
-def load_matrix(source, destination):
-    indicator, flights_data = filter_df(source, destination)
+        # Additional filtering condition
+        destination_cities = list(flights['destination city'].unique())
+        destination_cities.append(source)
+        flights = flights[flights["source city"].isin(destination_cities)]
 
-    if not indicator:
-        return indicator, flights_data
+        # Reset the index of the filtered data frame
+        flights.reset_index(drop=True, inplace=True)
 
-    n = len(flights_data)
+        return True, flights
 
-    cities = pd.concat([flights_data['source city'], flights_data['destination city']]).unique()
+    def load(self, source, destination):
+        """
+        Creates an adjacency matrix from the filtered flights data.
 
-    adj_matrix = Graph(cities)
+        Parameters:
+        source (str): The source city for filtering.
+        destination (str): The destination city for filtering.
 
-    for flight in range(n):
-        source = flights_data['source city'][flight]
-        destination = flights_data['destination city'][flight]
-        capacity = flights_data['capacity'][flight]
-        airline_name = flights_data['airline name'][flight]
-        plane_model = flights_data['plane model'][flight]
+        Returns:
+        tuple: A tuple containing a boolean and either a Graph object representing the
+               adjacency matrix or a string indicating the error.
+        """
 
-        adj_matrix.add_edge(source, destination, capacity, airline_name, plane_model)
+        indicator, flights_data = self.filter_df(source, destination)
 
-    return True, adj_matrix
+        # Return early if filtering was unsuccessful
+        if not indicator:
+            return indicator, flights_data
+
+        # Prepare data for adjacency matrix
+        cities = pd.concat([flights_data['source city'], flights_data['destination city']]).unique()
+        adj_matrix = Graph(cities)
+
+        # Add edges to the adjacency matrix
+        for flight in range(len(flights_data)):
+            source = flights_data['source city'][flight]
+            destination = flights_data['destination city'][flight]
+            capacity = flights_data['capacity'][flight]
+            airline_name = flights_data['airline name'][flight]
+            plane_model = flights_data['plane model'][flight]
+
+            adj_matrix.add_edge(source, destination, capacity, airline_name, plane_model)
+
+        return True, adj_matrix

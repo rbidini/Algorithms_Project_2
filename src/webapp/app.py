@@ -34,7 +34,7 @@ def result():
         result = sorted(result, key=lambda x: x["maximum capacity"], reverse=True)
 
         # Render the results page with the display results
-        return render_template("results.html", display_results=result, source_city=source.title(), destination_city=destination.title())
+        return render_template("results.html", display_results=result, source_city=source.title(), destination_city=destination.title(), max_capacity=max_capacity)
 
     # In case source or destination is missing, render the home page again with an error message
     return render_template("home.html", error_message="Please enter both source and destination.")
@@ -42,4 +42,3 @@ def result():
 
 if __name__ == "__main__":
     app.run(debug=True)
-
