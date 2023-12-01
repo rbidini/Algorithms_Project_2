@@ -224,7 +224,7 @@
                         <span>{{ report["layover"] }}</span>
                     </div>
                     <div class="flight-details">
-                        {{ report["layover airline"] }}: {{ report["layover model"] }}, Capacity: {{ report["layover capacity"] }}
+                        {{ report["layover airline"] }}: {{ report["layover model"] }}, Capacity: {{ report["layover capacity"] }}, Distance: {{ report["destination distance"] }} miles
                     </div>
                     <div class="route">
                         <span>{{ report["layover"] }}</span>
@@ -232,7 +232,7 @@
                         <span>{{ report["destination city"] }}</span>
                     </div>
                     <div class="flight-details">
-                        {{ report["destination airline"] }}: {{ report["destination model"] }}, Capacity: {{ report["destination capacity"] }}
+                        {{ report["destination airline"] }}: {{ report["destination model"] }}, Capacity: {{ report["destination capacity"] }}, Distance: {{ report["layover distance"] }} miles
                     </div>
                     <div class="max-capacity-details">
                         Maximum Capacity: {{ report["destination capacity"] }}
@@ -245,7 +245,7 @@
                     </div>
                     <div class="flight-details">
                         <div>
-                            {{ report["destination airline"] }}: {{ report["destination model"] }}
+                            {{ report["destination airline"] }}: {{ report["destination model"] }}, Distance: {{ report["destination distance"] }} miles
                         </div>
                         <div class="max-capacity-details">
                             Flight Capacity: {{ report["destination capacity"] }}
