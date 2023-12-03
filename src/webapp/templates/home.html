@@ -3,6 +3,65 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" name="viewport">
     <title>Find Your Flight</title>
+    <style>
+        .background-image {
+            position: relative;
+            color: white;
+        }
+
+        .overlay {
+            position: absolute;
+            top: 180px;
+            left: 0;
+            width: 100%;
+            background-color: rgba(255, 255, 255, 0.4);
+            padding: 80px 10px;
+        }
+
+        .overlay h1 {
+            color: white;
+            font-size: 50px;
+            font-family: Monospace;
+            margin: 0;
+            transform: scaleY(1.5);
+        }
+
+        .overlay h3 {
+            color: white;
+            font-size: 20px;
+            font-family: Times New Roman;
+            margin: 2;
+        }
+
+        .overlay form {
+            display: flex;
+            align-items: center;
+        }
+
+        .overlay input[type="text"] {
+            width: 200px;
+            height: 35px;
+            border: 1px solid white;
+            margin-right: 10px;
+        }
+
+        .overlay input[type="submit"] {
+            width: 200px;
+            height: 40px;
+            background-color: #ADD8E6;
+            color: black;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+
+        .error-message {
+            color: red;
+            background-color: rgba(255, 255, 255, 0.6);
+            padding: 7px;
+            border-radius: 5px;
+            display: inline-block;
+        }
+    </style>
     <script>
         function validateForm() {
             var source = document.getElementById('source').value;
@@ -16,22 +75,20 @@
     </script>
 </head>
 <body>
-    <div style="position: relative; color: white;">
+    <div class="background-image">
         <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2822&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="world map" style="width: 100%; height: auto;">
-        <div style="position: absolute; top: 120px; left: 0; width: 100%; background-color: rgba(255, 255, 255, 0.4); padding: 60px 10px; box-sizing: border-box;">
-            <h1 style="color: white; font-size: 50px; font-family: Monospace; margin: 0; transform: scaleY(1.5);">WHERE TO NEXT</h1>
-            <h3 style="color: white; font-size: 20px; font-family: Times New Roman; margin: 2;">Enter your flight details:</h3>
-            <form action="/result" method="POST" onsubmit="return validateForm()" style="display: flex; align-items: center;">
-                <input type="text" id="source" name="source" placeholder="From" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
-                <input type="text" id="destination" name="destination" placeholder="To" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
-                <input type="submit" value="Search Flights" style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
+        <div class="overlay">
+            <h1>WHERE TO NEXT</h1>
+            <h3>Enter your flight details:</h3>
+            <form action="/result" method="POST" onsubmit="return validateForm()">
+                <input type="text" id="source" name="source" placeholder="From">
+                <input type="text" id="destination" name="destination" placeholder="To">
+                <input type="submit" value="Search Flights">
             </form>
             {% if error_message %}
-                <p style="color: red; background-color: rgba(255, 255, 255, 0.6); padding: 7px; border-radius: 5px; display: inline-block;">{{ error_message }}</p>
+                <p class="error-message">{{ error_message }}</p>
             {% endif %}
         </div>
     </div>
 </body>
 </html>
-
-

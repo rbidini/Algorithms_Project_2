@@ -30,7 +30,6 @@ def result():
             # Redirect back to the home page with the error message
             return render_template("home.html", error_message=error_message)
 
-        display_results = []
         result = sorted(result, key=lambda x: x["maximum capacity"], reverse=True)
 
         # Render the results page with the display results
