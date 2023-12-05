@@ -1,10 +1,10 @@
 class Graph:
     def __init__(self, vertices):
         """
-        Initializes a graph with the given vertices.
+        Initializes the graph with the given vertices.
 
         Parameters:
-        vertices (list): A list of vertices in the graph.
+        vertices (list): A list of vertices (city names) in the graph.
         """
 
         # A dictionary mapping each vertex to its index in the adjacency matrix.
@@ -18,7 +18,7 @@ class Graph:
 
     def add_edge(self, source, destination, capacity, airline_name, plane_model, distance):
         """
-        Adds an edge to the graph between two nodes with specified attributes.
+        Adds an edge to the graph between two vertices (cities) with specified attributes.
 
         Parameters:
         source (str): The source vertex of the edge.
@@ -26,18 +26,21 @@ class Graph:
         capacity (int): The capacity of the edge.
         airline_name (str): The name of the airline for this edge.
         plane_model (str): The model of the plane for this edge.
-        distance (int): The distance between source and destination for the edge.
+        distance (int): The distance between source and destination for this edge.
         """
 
-        # Add an edge with attributes between source and destination nodes
+        # Add an edge with attributes between source and destination vertices
         source_idx = self.vertex_index[source]
         destination_idx = self.vertex_index[destination]
-        weight_info = {'capacity': capacity, 'airline name': airline_name, 'plane model': plane_model, 'distance': distance}
+        weight_info = {'capacity': capacity,
+                       'airline name': airline_name,
+                       'plane model': plane_model,
+                       'distance': distance}
         self.graph[source_idx][destination_idx].append(weight_info)
 
     def get_edges(self, source, destination):
         """
-        Retrieves all edges between two specified nodes.
+        Retrieves all edges between two specified vertices (cities).
 
         Parameters:
         source (str): The source vertex.
@@ -49,4 +52,5 @@ class Graph:
 
         source_idx = self.vertex_index[source]
         destination_idx = self.vertex_index[destination]
+
         return self.graph[source_idx][destination_idx]

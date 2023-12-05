@@ -12,12 +12,25 @@ class MaxCapacity:
         Executes the Edmond-Karp algorithm to find the maximum flow (capacity) between two cities.
 
         Parameters:
-        adj_matrix (Graph): The adjacency matrix representing the flight network.
-        source_city (str): The source city for the flow calculation.
-        destination_city (str): The destination city for the flow calculation.
+        adj_matrix (Graph): The adjacency matrix representing the network.
+        source_city (str): The source city.
+        destination_city (str): The destination city.
 
         Returns:
-        tuple: A tuple containing a list of dictionaries with details of each step in the path and the total maximum capacity.
+        A tuple containing two parameters:
+        - list of dictionaries with details about each connection between vertices (cities):
+            layover city
+            layover airline
+            layover plane model
+            layover capacity
+            layover distance
+            destination city
+            destination airline
+            destination plane model
+            destination capacity
+            destination distance
+            maximum capacity
+        - total maximum capacity.
         """
 
         result = []
@@ -36,7 +49,8 @@ class MaxCapacity:
             while curr_node_index != source_idx:
                 parent_node_index, edge_id = parent[curr_node_index]
                 current_capacity = min(current_capacity, graph[parent_node_index][curr_node_index][edge_id]['capacity'])
-                capacity, airline_name, plane_model, distance = self.extract_flight_info(graph, parent_node_index, curr_node_index, edge_id)
+                capacity, airline_name, plane_model, distance = self.extract_flight_info(graph, parent_node_index,
+                                                                                         curr_node_index, edge_id)
 
                 if adj_matrix.vertex_city[parent_node_index] != source_city:
                     report.update(self.create_layover_report(adj_matrix,
@@ -86,7 +100,8 @@ class MaxCapacity:
             'layover distance': distance,
         }
 
-    def create_destination_report(self, destination_city, capacity, airline_name, plane_model, current_capacity, distance):
+    def create_destination_report(self, destination_city, capacity, airline_name, plane_model, current_capacity,
+                                  distance):
         """
         Helper method to create a destination report.
         """

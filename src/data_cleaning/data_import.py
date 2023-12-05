@@ -1,6 +1,5 @@
 import pandas as pd
 
-
 # reading the CSV files
 # some column names had empty spaces in the beginning of the name, "skipinitialspace=True" parameter removes empty spaces.
 routes_data = pd.read_csv('../data_sets/routes.csv', encoding='ISO-8859-1', skipinitialspace=True)

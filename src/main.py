@@ -25,4 +25,3 @@ def run_algorithm(source, destination):
 
     # Apply the Edmond-Karp algorithm to find the maximum capacity path within the network.
     return main_alg.edmond_karp(result, source, destination)
-

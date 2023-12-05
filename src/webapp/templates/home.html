@@ -61,6 +61,7 @@
             border-radius: 5px;
             display: inline-block;
         }
+
     </style>
     <script>
         function validateForm() {
@@ -72,23 +73,25 @@
             }
             return true;
         }
+
     </script>
 </head>
 <body>
-    <div class="background-image">
-        <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2822&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="world map" style="width: 100%; height: auto;">
-        <div class="overlay">
-            <h1>WHERE TO NEXT</h1>
-            <h3>Enter your flight details:</h3>
-            <form action="/result" method="POST" onsubmit="return validateForm()">
-                <input type="text" id="source" name="source" placeholder="From">
-                <input type="text" id="destination" name="destination" placeholder="To">
-                <input type="submit" value="Search Flights">
-            </form>
-            {% if error_message %}
-                <p class="error-message">{{ error_message }}</p>
-            {% endif %}
-        </div>
+<div class="background-image">
+    <img src="https://images.unsplash.com/photo-1503614472-8c93d56e92ce?q=80&w=2822&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+         alt="world map" style="width: 100%; height: auto;">
+    <div class="overlay">
+        <h1>WHERE TO NEXT</h1>
+        <h3>Enter your flight details:</h3>
+        <form action="/result" method="POST" onsubmit="return validateForm()">
+            <input type="text" id="source" name="source" placeholder="From">
+            <input type="text" id="destination" name="destination" placeholder="To">
+            <input type="submit" value="Search Flights">
+        </form>
+        {% if error_message %}
+        <p class="error-message">{{ error_message }}</p>
+        {% endif %}
     </div>
+</div>
 </body>
 </html>

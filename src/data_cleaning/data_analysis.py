@@ -23,7 +23,8 @@ merged_data = less_layovers.merge(
     right_on='Airport ID',
     how='left'
 )
-merged_data.rename(columns={'City': 'source city', 'Latitude': 'source latitude', 'Longitude': 'source longitude'}, inplace=True)
+merged_data.rename(columns={'City': 'source city', 'Latitude': 'source latitude', 'Longitude': 'source longitude'},
+                   inplace=True)
 merged_data.drop('Airport ID', axis=1, inplace=True)  # removing the extra 'Airport ID' column
 
 # Merge to add the destination city name
@@ -33,7 +34,9 @@ merged_data = merged_data.merge(
     right_on='Airport ID',
     how='left'
 )
-merged_data.rename(columns={'City': 'destination city', 'Latitude': 'destination latitude', 'Longitude': 'destination longitude'}, inplace=True)
+merged_data.rename(
+    columns={'City': 'destination city', 'Latitude': 'destination latitude', 'Longitude': 'destination longitude'},
+    inplace=True)
 merged_data.drop('Airport ID', axis=1, inplace=True)  # removing the extra 'Airport ID' column again
 
 # Merge airlines data_files with routes to get the name of the airline

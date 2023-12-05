@@ -1,11 +1,11 @@
 def BFS(graph, source, destination, parent):
     """
-    Performs a Breadth-First Search on a graph from a source to a destination node.
+    Performs a Breadth-First Search on a graph from source to destination node.
 
     Parameters:
-    adj_matrix (Graph): The adjacency matrix representing the flight network.
-    source (int): The index of the source node in the graph.
-    destination (int): The index of the destination node in the graph.
+    adj_matrix (Graph): The adjacency matrix representing the network.
+    source (int): The index of the source vertex in the graph.
+    destination (int): The index of the destination vertex in the graph.
     parent (list): The parent list to store the path from the source to the destination.
 
     Returns:
@@ -29,4 +29,3 @@ def BFS(graph, source, destination, parent):
                 parent[i] = [vis, graph[vis][i].index(max(graph[vis][i], key=lambda x: x['capacity']))]
 
     return visited[destination]
-
