@@ -24,6 +24,11 @@ def result():
 
     # Check if both source and destination inputs are given
     if source and destination:
+        #make them both lowercase:
+        source = source.lower()
+        destination = destination.lower()
+
+
         result, max_capacity = run_algorithm(source, destination)
 
         # In case source, destination, or both are missing, render the home page with an error message
