@@ -1,4 +1,4 @@
-from algorithm.breadth_first_search import BFS
+from src.algorithm.breadth_first_search import BFS
 
 
 class MaxCapacity:
@@ -69,7 +69,7 @@ class MaxCapacity:
                                                          current_capacity,
                                                          distance))
             result.append(report)
-
+            # print(current_capacity)
             max_capacity += current_capacity
             self.update_graph_capacity(graph, parent, source_idx, destination_idx, current_capacity)
 

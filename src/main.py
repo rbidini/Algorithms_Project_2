@@ -1,5 +1,5 @@
-from algorithm.edmond_karp import MaxCapacity
-from algorithm.load_adjacency_matrix import LoadMatrix
+from src.algorithm.edmond_karp import MaxCapacity
+from src.algorithm.load_adjacency_matrix import LoadMatrix
 
 
 def run_algorithm(source, destination):

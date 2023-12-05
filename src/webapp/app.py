@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from main import run_algorithm
+from src.main import run_algorithm
 
 app = Flask(__name__)
 
@@ -20,15 +20,13 @@ def result():
 
     # If the user entered the same city for both source and destination
     if source == destination:
+
+        source = source.lower()
+        destination = destination.lower()
         return render_template("home.html", error_message="Source and destination cities cannot be the same.")
 
     # Check if both source and destination inputs are given
     if source and destination:
-        #make them both lowercase:
-        source = source.lower()
-        destination = destination.lower()
-
-
         result, max_capacity = run_algorithm(source, destination)
 
         # In case source, destination, or both are missing, render the home page with an error message

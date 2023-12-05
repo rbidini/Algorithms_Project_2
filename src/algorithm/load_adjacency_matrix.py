@@ -1,6 +1,6 @@
 import pandas as pd
 
-from algorithm.adjacency_matrix import Graph
+from src.algorithm.adjacency_matrix import Graph
 
 
 class LoadMatrix:
