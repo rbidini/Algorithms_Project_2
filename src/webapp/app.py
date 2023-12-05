@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 
-from src.main import run_algorithm
+from main import run_algorithm
 
 app = Flask(__name__)
 

@@ -1,4 +1,4 @@
-from src.algorithm.breadth_first_search import BFS
+from algorithm.breadth_first_search import BFS
 
 
 class MaxCapacity:
