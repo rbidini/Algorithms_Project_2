@@ -10,18 +10,21 @@ class LoadMatrix:
     - load the adjacency matrix with filtered data.
     """
 
-    def filter_df(self, source, destination):
+    @staticmethod
+    def filter_df(source, destination):
         """
-        Filters the flights data frame based on the given source and destination cities.
+        Filters the flights data frame based on given source and destination cities.
 
         Parameters:
-        source (str): The source city for filtering.
-        destination (str): The destination city for filtering.
+        source (str): The source city.
+        destination (str): The destination city.
 
         Returns:
-        tuple: A tuple containing a boolean and a data frame or a string.
-               The boolean indicates whether the filtering was successful, and the
-               data frame contains the filtered flights data.
+        Two possibilities:
+        - In case filtering was not successful:
+            A tuple containing a boolean False and a string indicating were the error came from.
+        - In case filtering was successful:
+            A tuple containing a boolean True and a filtered data frame.
         """
 
         flights_data = pd.read_csv('../data_sets/final_all_flights.csv', encoding='ISO-8859-1', skipinitialspace=True)
@@ -51,15 +54,18 @@ class LoadMatrix:
 
     def load(self, source, destination):
         """
-        Creates an adjacency matrix from the filtered flights data.
+        Loads an adjacency matrix with data from the filtered flights data frame.
 
         Parameters:
-        source (str): The source city for filtering.
-        destination (str): The destination city for filtering.
+        source (str): The source city.
+        destination (str): The destination city.
 
         Returns:
-        tuple: A tuple containing a boolean and either a Graph object representing the
-               adjacency matrix or a string indicating the error.
+        Two possibilities:
+        - In case data loading was not successful:
+            A tuple containing a boolean False and a string indicating the error.
+        - In case data loading was successful:
+            A tuple containing a boolean True and a Graph object representing the adjacency matrix.
         """
 
         indicator, flights_data = self.filter_df(source, destination)
