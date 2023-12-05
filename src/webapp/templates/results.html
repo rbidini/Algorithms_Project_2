@@ -3,7 +3,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flight Results</title>
-    <!-- JS functions -->
+    <!-- JS scrip -->
     <script>
         function validateForm() {
             var source = document.getElementById('source').value;
@@ -14,7 +14,6 @@
             }
             return true;
         }
-
     </script>
     <script>
         function filterFlights(filterType) {
@@ -28,7 +27,6 @@
                 }
             });
         }
-
     </script>
     <script>
         document.getElementById('max-capacity-btn').addEventListener('click', function() {
@@ -41,16 +39,14 @@
                 this.textContent = 'Show Max Capacity';
             }
         });
-
     </script>
     <script>
         function toggleMaxCapacity() {
             var maxCapacityDiv = document.getElementById('max-capacity');
             maxCapacityDiv.style.display = maxCapacityDiv.style.display === 'none' ? 'block' : 'none';
         }
-
     </script>
-    <!-- CSS styles -->
+     <!-- CSS styles -->
     <style>
         body {
             background-image: url('https://thumbs.dreamstime.com/b/pastel-blue-sky-light-clouds-vertical-background-161949209.jpg');
@@ -176,112 +172,98 @@
             content: '\2713';
             opacity: 1;
         }
-
     </style>
 </head>
 <body>
-<!-- HTML code -->
-<main class="container p-3">
-    <div class="header-image">
-        <h1 class="header-text">
-            Displaying all available flights from {{ source_city }} to {{ destination_city }}
-        </h1>
-        <h3 style="color: white; font-size: 22px; font-family: Times New Roman; margin-top: 5px; margin-bottom: 15px; margin-left: 10px;">
-            Search for more flights:</h3>
-        <div style="text-align: left; margin-top: 5px; margin-bottom: 20px; margin-left: 10px;">
-            <form action="/result" method="POST" onsubmit="return validateForm()"
-                  style="display: flex; align-items: center;">
-                <input type="text" id="source" name="source" placeholder="From"
-                       style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
-                <input type="text" id="destination" name="destination" placeholder="To"
-                       style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
-                <input type="submit" value="Search Flights"
-                       style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
-            </form>
-            {% if error_message %}
-            <p style="color: red; background-color: rgba(255, 255, 255, 0.6); padding: 7px; border-radius: 5px; display: inline-block;">
-                {{ error_message }}</p>
-            {% endif %}
-        </div>
-    </div>
-    <div class="filters-container">
-        <div class="filter-options">
-            <div style="font-size: 22px; padding: 10px">Filter by:</div>
-            <div class="flight-filter">
-                <input type="radio" id="filter-all" name="flight-filter" value="all" checked
-                       onclick="filterFlights('all')">
-                <label for="filter-all"></label>All Flights
-            </div>
-            <div class="flight-filter">
-                <input type="radio" id="filter-direct" name="flight-filter" value="direct"
-                       onclick="filterFlights('direct')">
-                <label for="filter-direct"></label>Direct Flights
-            </div>
-            <div class="flight-filter">
-                <input type="radio" id="filter-layover" name="flight-filter" value="layover"
-                       onclick="filterFlights('layover')">
-                <label for="filter-layover"></label>Flights with Layovers
+     <!-- HTML scrip -->
+    <main class="container p-3">
+        <div class="header-image">
+            <h1 class="header-text">
+                Displaying all available flights from {{ source_city }} to {{ destination_city }}
+            </h1>
+            <h3 style="color: white; font-size: 22px; font-family: Times New Roman; margin-top: 5px; margin-bottom: 15px; margin-left: 10px;">Search for more flights:</h3>
+            <div style="text-align: left; margin-top: 5px; margin-bottom: 20px; margin-left: 10px;">
+                <form action="/result" method="POST" onsubmit="return validateForm()" style="display: flex; align-items: center;">
+                    <input type="text" id="source" name="source" placeholder="From" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
+                    <input type="text" id="destination" name="destination" placeholder="To" style="width: 200px; height: 35px; border: 1px solid white; margin-right: 10px;">
+                    <input type="submit" value="Search Flights" style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
+                </form>
+                {% if error_message %}
+                    <p style="color: red; background-color: rgba(255, 255, 255, 0.6); padding: 7px; border-radius: 5px; display: inline-block;">{{ error_message }}</p>
+                {% endif %}
             </div>
         </div>
-        <div class="max-capacity-container">
-            <input type="checkbox" id="max-capacity-btn" onclick="toggleMaxCapacity()">
-            <label id="max-capacity-label" for="max-capacity-btn"></label>
-            <div>Show Maximum Capacity</div>
-        </div>
-    </div>
-    <div id="max-capacity"
-         style="display: none; text-align: right; font-size: 22px; margin-bottom: 10px; margin-right: 10px;">
-        Total Maximum Capacity: {{ max_capacity }}
-    </div>
-    {% for report in display_results %}
-    <div class="flight-box" data-layover="{% if report.get('layover') %}yes{% else %}no{% endif %}">
-        {% if report.get("layover") %}
-        <div class="route">
-            <span>{{ report["source city"] }}</span>
-            <div class="route-arrow"></div>
-            <span>{{ report["layover"] }}</span>
-        </div>
-        <div class="flight-details">
-            {{ report["layover airline"] }}: {{ report["layover model"] }}, Capacity: {{ report["layover capacity"] }},
-            Distance: {{ report["destination distance"] }} miles
-        </div>
-        <div class="route">
-            <span>{{ report["layover"] }}</span>
-            <div class="route-arrow"></div>
-            <span>{{ report["destination city"] }}</span>
-        </div>
-        <div class="flight-details">
-            {{ report["destination airline"] }}: {{ report["destination model"] }}, Capacity: {{ report["destination
-            capacity"] }}, Distance: {{ report["layover distance"] }} miles
-        </div>
-        <div class="max-capacity-details">
-            Maximum Capacity: {{ report["destination capacity"] }}
-        </div>
-        {% else %}
-        <div class="route direct-route">
-            <span>{{ report["source city"] }}</span>
-            <div class="route-arrow"></div>
-            <span>{{ report["destination city"] }}</span>
-        </div>
-        <div class="flight-details">
-            <div>
-                {{ report["destination airline"] }}: {{ report["destination model"] }}, Distance: {{ report["destination
-                distance"] }} miles
+        <div class="filters-container">
+            <div class="filter-options">
+                <div style="font-size: 22px; padding: 10px">Filter by:</div>
+                <div class="flight-filter">
+                    <input type="radio" id="filter-all" name="flight-filter" value="all" checked onclick="filterFlights('all')">
+                    <label for="filter-all"></label>All Flights
+                </div>
+                <div class="flight-filter">
+                    <input type="radio" id="filter-direct" name="flight-filter" value="direct" onclick="filterFlights('direct')">
+                    <label for="filter-direct"></label>Direct Flights
+                </div>
+                <div class="flight-filter">
+                    <input type="radio" id="filter-layover" name="flight-filter" value="layover" onclick="filterFlights('layover')">
+                    <label for="filter-layover"></label>Flights with Layovers
+                </div>
             </div>
-            <div class="max-capacity-details">
-                Flight Capacity: {{ report["destination capacity"] }}
+            <div class="max-capacity-container">
+                <input type="checkbox" id="max-capacity-btn" onclick="toggleMaxCapacity()">
+                <label id="max-capacity-label" for="max-capacity-btn"></label>
+                <div>Show Maximum Capacity</div>
             </div>
         </div>
-        {% endif %}
-    </div>
-    {% endfor %}
-    <div style="text-align: right; margin-top: 20px;">
-        <a href="/" style="text-decoration: none;">
-            <button style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
-                Back to Home
-            </button>
-        </a>
-    </div>
-</main>
+        <div id="max-capacity" style="display: none; text-align: right; font-size: 22px; margin-bottom: 10px; margin-right: 10px;">
+            Total Maximum Capacity: {{ max_capacity }}
+        </div>
+        {% for report in display_results %}
+            <div class="flight-box" data-layover="{% if report.get('layover') %}yes{% else %}no{% endif %}">
+                {% if report.get("layover") %}
+                    <div class="route">
+                        <span>{{ report["source city"] }}</span>
+                        <div class="route-arrow"></div>
+                        <span>{{ report["layover"] }}</span>
+                    </div>
+                    <div class="flight-details">
+                        {{ report["layover airline"] }}: {{ report["layover model"] }}, Capacity: {{ report["layover capacity"] }}, Distance: {{ report["destination distance"] }} miles
+                    </div>
+                    <div class="route">
+                        <span>{{ report["layover"] }}</span>
+                        <div class="route-arrow"></div>
+                        <span>{{ report["destination city"] }}</span>
+                    </div>
+                    <div class="flight-details">
+                        {{ report["destination airline"] }}: {{ report["destination model"] }}, Capacity: {{ report["destination capacity"] }}, Distance: {{ report["layover distance"] }} miles
+                    </div>
+                    <div class="max-capacity-details">
+                        Maximum Capacity: {{ report["maximum capacity"] }}
+                    </div>
+                {% else %}
+                    <div class="route direct-route">
+                        <span>{{ report["source city"] }}</span>
+                        <div class="route-arrow"></div>
+                        <span>{{ report["destination city"] }}</span>
+                    </div>
+                    <div class="flight-details">
+                        <div>
+                            {{ report["destination airline"] }}: {{ report["destination model"] }}, Distance: {{ report["destination distance"] }} miles
+                        </div>
+                        <div class="max-capacity-details">
+                            Flight Capacity: {{ report["destination capacity"] }}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        {% endfor %}
+        <div style="text-align: right; margin-top: 20px;">
+            <a href="/" style="text-decoration: none;">
+                <button style="width: 200px; height: 40px; background-color: #ADD8E6; color: black; border: 1px solid white; cursor: pointer;">
+                    Back to Home
+                </button>
+            </a>
+        </div>
+    </main>
 </body>
 </html>
