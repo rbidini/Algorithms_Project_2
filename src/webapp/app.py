@@ -15,6 +15,9 @@ def result():
     source = request.form['source']
     destination = request.form['destination']
 
+    if source == destination:
+        return render_template("home.html", error_message="Source and destination cities cannot be the same.")
+
     if source and destination:
         result, max_capacity = run_algorithm(source, destination)
 
