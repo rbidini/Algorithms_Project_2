@@ -4,9 +4,10 @@ from src.algorithm.adjacency_matrix import Graph
 
 class LoadMatrix:
     """
-    This class is designed to prepare the flight data for the algorithm.
-    It includes methods to filter flight data based on source and destination cities,
-    and to load an adjacency matrix representation of the filtered data.
+    This class is designed to prepare the adjacency matrix for the algorithm.
+    It includes two methods:
+    - filter the data frame based on source and destination cities
+    - load the adjacency matrix with filtered data.
     """
 
     def filter_df(self, source, destination):

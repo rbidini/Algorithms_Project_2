@@ -4,7 +4,7 @@ from math import radians, cos, sin, asin, sqrt
 # Haversine function to calculate distance
 def haversine(lat1, lon1, lat2, lon2):
     """
-    Calculate the between two points on the earth
+    Calculate distance between two points on earth based on latitude and longitude
     """
     # Convert decimal degrees to radians
     lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
