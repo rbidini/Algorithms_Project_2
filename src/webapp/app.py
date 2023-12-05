@@ -20,6 +20,9 @@ def result():
 
     # If the user entered the same city for both source and destination
     if source == destination:
+
+        source = source.lower()
+        destination = destination.lower()
         return render_template("home.html", error_message="Source and destination cities cannot be the same.")
 
     # Check if both source and destination inputs are given
