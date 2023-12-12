@@ -6,7 +6,6 @@ class MaxCapacity:
     This class is designed to analyze the capacity of flight paths using the Edmond-Karp algorithm.
     It operates on an adjacency matrix representation of flight routes and capacities.
     """
-
     def edmond_karp(self, adj_matrix, source_city, destination_city):
         """
         Executes the Edmond-Karp algorithm to find the maximum flow (capacity) between two cities.
