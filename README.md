@@ -23,7 +23,7 @@ This web-based application, developed using Flask, optimizes flight route capaci
 2. Navigate to the project directory and install dependencies.
    ```bash
    pip install -r requirements.txt
-   ```
+   ``` 
 4. Run the Flask application.
 5. Access the application through the local host URL provided.
 
