@@ -17,12 +17,15 @@ This web-based application, developed using Flask, optimizes flight route capaci
 
 ## Installation and Usage
 1. Clone the repository:
-   ```
+   ```bash
    git clone https://github.com/rbidini/Algorithms_Project_2
    ```
 2. Navigate to the project directory and install dependencies.
-3. Run the Flask application.
-4. Access the application through the local host URL provided.
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Run the Flask application.
+5. Access the application through the local host URL provided.
 
 ## Future Extensions
 - Transition to a key-value database for efficient data management.
@@ -34,10 +37,3 @@ This web-based application, developed using Flask, optimizes flight route capaci
 
 ## Contributing
 Contributions to this project are welcome. Please feel free to fork the repository, make changes, and submit pull requests. For major changes, open an issue first to discuss what you would like to change.
-
-## Dependencies
-
-Before running the script, ensure you have the required packages installed:
-```bash
-pip install -r requirements.txt
-```
