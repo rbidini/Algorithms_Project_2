@@ -6,10 +6,8 @@ This web-based application, developed using Flask, optimizes flight route capaci
 ## Key Features
 - **Flight Capacity Optimization:** Utilizes the Edmond-Karp algorithm to compute maximum capacity paths within a network of flights.
 - **User-Friendly Interface:** Easy-to-use interface for inputting source and destination cities, enhancing user experience.
-- **Detailed Flight Information:** Provides comprehensive information on flight routes, including maximum capacity paths.
+- **Detailed Flight Information:** Provides comprehensive information on flight routes, including maximum capacity paths, plane model, carrier, and distance.
 - **Robust Error Handling:** Guides users through input errors such as non-existent cities or identical source and destination entries.
-- **Data Visualization:** Allows users to visualize flight capacity information, aiding in better route understanding.
-- **Interactive Dashboard:** Features like dynamic graphs or maps to visualize flight routes and capacities.
 
 ## Technologies Used
 - Flask
